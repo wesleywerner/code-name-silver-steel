@@ -62,18 +62,19 @@ An overall is a wearable thing. The description is "[if overall is worn by playe
 
 A maintenance tag is a thing. The description is "A minimal security pass that entitles you to do maintenance work."
 
-A toolbox is a closed openable container. The description is "It looks just like a metal toolbox, the red paint is even scuffed away along the edges. In reality it is a metal toolbox, containing hidden spy gear."
+A toolbox is a closed openable container. The description is "It looks just like a metal toolbox, the red paint is even scuffed away along the edges. In reality it is just a metal toolbox, except it contains spy gear. Best you open it in private."
 
 A screwdriver is a thing in the toolbox. The description is "A phillips head screwdriver."
 
 A data disc is a thing in the toolbox. 
+A data disc can be full.
 The description of a data disc is "A round silvery disc for storing digital data."
 
 A suit is a wearable thing in the toolbox. The description is "A smart gray suit. The perfect attire for a day of espionage."
 
 A coffee mug is a thing. A coffee mug can be full or empty. A coffee mug is empty. The description is "A white unmarked mug.[if A coffee mug is full] It is filled with hot coffee.[end if]"
 
-A security pass is a wearable thing. The description is "An administrative security pass attached to a lanyard."
+A security pass is a wearable thing. The description is "A security pass attached to a lanyard. The print on the card reads 'elevator access'."
 
 A security pass unlocks the admin elevator.
 
@@ -113,7 +114,7 @@ Understand "worker" or "workers" as elderly man.
 
 Part - Technician
 
-A technician is a woman. "A technician is here, working on a terminal." The description is "A middle-aged woman wearing a white coat."
+A technician is a woman. "A technician is here, working on a terminal." The description is "A middle-aged woman wearing a long white coat. Her brown hair is tied up."
 
 Understand "tech" as technician.
 
@@ -147,23 +148,23 @@ Part - Maintenance Quarters
 
 The Maintenance Quarters is a room. "The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.
 
-There is all manner of piping running along the roof. There is a panel covering an access shaft in the north wall.
+There is all manner of piping running along the roof. There is a panel in the north wall.
 
 The service passage leads off to the east."
 
-Some piping is scenery in the Maintenance Quarters. The description is "Pipes of various sizes run along the roof in this room, leading away along the passage to the east. You guess they carry water, gas or waste."
-Understand "pipes" as piping.
+Some piping is scenery in the Maintenance Quarters. The description is "Pipes of various sizes run along the ceiling. You guess they carry water, gas or waste."
+Understand "pipes" and "ceiling" as piping.
 
-[ the access panel is a one-way door through to administration ]
-The access panel is a door. It is scenery. It is north of the Maintenance Quarters. Through the access panel is Administration.
+The access panel is a door. It is scenery.
+The description is "A gray steel panel. This one seems to cover a tunnel."
+It is north of the Maintenance Quarters and south of Administration.
 
-Some screws are part of the access panel. The description is "Small metal pins with spiralling shafts used to fix other things in place."
+Some screws are part of the access panel. The description is "Steel pins with spiralling shafts used to fix other things in place. Usually turned by a screwdriver."
 
 Part - Administration Room
 
-Administration is a room. "You are standing in the western peripheries of a large room, divided up into a dozen cubicles for the suits working here. Unlike a beehive of activity, most of these workers are sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-[if the Breakroom is visited]The Breakroom is to the west[else]There is a doorway to the west[end if], and an elevator to the north."
+Administration is a room. "[if the location is not visited]You are standing against the wall in a large room. The space is divided into a dozen cubicles. Unlike a beehive of activity, most of the suits working here are sitting inside their small cells. The room has the dull hum of a funeral parlour.[paragraph break][end if]
+A cubicle is nearby. [if the Breakroom is visited]The Breakroom is to the west[else]There is a doorway to the west[end if], and an elevator to the north."
 
 The copy machine is a supporter in Administration. The description is "It is a chunky piece of machinery with many tiny buttons. You notice coffee-ring stains on top of the machine. Somebody has a bad habit of putting their cups on the machine."
 
@@ -175,15 +176,15 @@ Some stains are part of the copy machine. The description is "The stains are mad
 
 Instead of taking some stains, say "You are not here to clean the office equipment."
 	
-Instead of pushing some buttons, say "You refrain from smashing the buttons, knowing it won't help your mission."
+Instead of pushing some buttons, say "You refrain from mashing the buttons, it will be fun but it won't help your mission."
 	
 Instead of switching on some buttons, try pushing some buttons.
 
-A cubicle is an enterable container in Administration. It is scenery. The description is "You notice the nearest cubicle."
+A cubicle is an enterable container in Administration. It is scenery. The description is "It is the closest cubicle to the copy machine."
 
-The admin elevator is a closed locked door. It is north of Administration. The printed name is "elevator". The description is "A metal elevator with an electronic access system."
+The admin elevator is a closed locked door. It is scenery. It is north of Administration and south of the Data Centre. The printed name is "elevator". The description is "A metal elevator with an electronic access system."
 
-Through the admin elevator is the Data Centre.
+[Through the admin elevator is the Data Centre.]
 
 The paperwork is in the cubicle.
 
@@ -211,17 +212,20 @@ A technician is in the Data Centre.
 
 A strobe light is in the Data Centre. It is scenery. The description is "A red strobe light fitted to the ceiling of the room. [if a strobe light is lit]It is flashing manically[else]It is waiting patiently until the day it is turned on[end if]."
 
+[ helper thing to point examining in the right direction ]
+Some terminals are in the Data Centre. It is scenery. The description is "You notice two terminals nearby: a database terminal, and a fire control terminal."
+
 The fire control terminal is in the Data Centre. 
 It is fixed in place.
 
-Instead of examining the fire control terminal, say "This computer controls the fire detection and sprinkler systems of the building. You can [bold type]log on terminal[roman type] to use it."
+Instead of examining the fire control terminal, say "This terminal controls the fire detection and sprinkler systems of the building. You can [bold type]log on terminal[roman type] to use it."
 
 The database terminal is in the Data Centre. 
 It is fixed in place.
 
-Instead of examining the database terminal, say "This computer controls the information database. You can [bold type]log on terminal[roman type] to use it."
+Instead of examining the database terminal, say "This terminal controls the information database. You notice a drive bay attached to it. You can [bold type]log on terminal[roman type] to use it."
 
-The drive bay is a container. The description is "It is connected to the terminal, and has a slot to insert a data disc."
+The drive bay is a container. The description is "A peripheral that is connected to the database terminal, used to copy files on and off the server. It has a slot to insert a data disc."
 
 The drive bay is part of the database terminal.
 
@@ -234,11 +238,29 @@ Book - Play Begins
 When play begins:
 	say "Your fee is steep, but it barely makes a dent in their multinational corporate coffers, and it's not like these expenses will ever show up on any annual budget. So you doubled your rate for this job, they accepted, and here you are. Dressed to kill, standing in the foyer of MegaCorp, the target. Your employer's choice currency is blood money, their interest is information. Your goal is to retrieve some sensitive files, and to further your own agenda on the side..." 
 		
-Book - Play Ends Logic
+Book - Endings
 
-[ going back into the Foyer, while wearing the suit, raises an alarm ]
+[ going back into the Foyer, while wearing the suit ]
 After going to the Foyer when the player is wearing a suit:
-	end the story saying "You neglectfully walk into [the location] wearing the suit, not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again."
+	say "You neglectfully walk into [the location] wearing the suit, not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.";
+	end the story;
+
+[ inserting the data disc in the drive bay, while the tech is in the room ]
+Check inserting the data disc into the drive bay when a technician is in the location:
+	say "'What are you doing?', the tech asks you. 'Who are you? Show me your security pass!'[paragraph break]She realizes that the pass does not belong to you, before you can react she trips an alarm. Armed men surround you within seconds and you are led away, never to be heard from again.";
+	end the story;
+
+[ opening your toolbox in the foyer - a warning only, not a real ending ]	
+Instead of opening the toolbox when the location is the Foyer:
+	say "You open your toolbox and the receptionist peers over her horn-rims at the toolbox contents: [a list of thing in the toolbox]. Realizing your mistake, you quickly flip it closed. You can't risk being caught.";
+	
+[ win ]
+Carry out taking the data disc when the data disc is full:
+	say "You escape with the data.";
+	end the story;
+
+
+
 
 Book - Foyer Logic
 
@@ -246,9 +268,6 @@ Book - Foyer Logic
 Instead of smelling when the location is the foyer, say "The scent of floral bleach lingers near the floor."
 
 Instead of listening when the location is the foyer, say "You hear the ghostly echoes of unseen busy-bodies elsewhere in the building, interspersed with the clickety-clacks of the receptionist's typing."
-
-[ limit toolbox use ]
-Instead of opening the toolbox when the location is the Foyer, say "You want to get into the maintenance level before you open your 'spy box'."
 
 Instead of dropping the toolbox when the location is the Foyer, say "You will need your toolbox later."
 
@@ -281,7 +300,7 @@ Instead of showing the job card to the receptionist, try giving the job card to 
 
 Instead of giving the job card to the receptionist:
 	say "She takes the job card from you and scrutinizes it against her records.";
-	say "'Fine', she hands you a clip-on tag. 'Carry this with you at all times. The maintenance door is there.' she points north. 'Have a nice day'.";
+	say "'Fine', she says, handing you a clip-on tag. 'Carry this with you at all times. The maintenance door is there', she points north. 'Have a nice day'.";
 	now the receptionist carries the job card;
 	now the player carries the maintenance tag.
 
@@ -314,13 +333,16 @@ Instead of turning the screws:
 
 Understand "unscrew panel" as a mistake("Perhaps you meant to [bold type]turn screws[roman type]?")
 
+[ force going north when entering the access panel, to enforce the going rule ]
+Instead of going the access panel, try going north.
+
 [ only exit north when wearing the suit ]
-Check going north when the location is the Maintenance Quarters:
+Check going north when the location is the Maintenance Quarters and the access panel is open:
 	if the player is wearing a suit:
-		say "Deftly, you step through the access panel and into the emergency fire escape stairwell. The concrete tunnel has dim lighting, just enough to see the steps. You ascend and emerge surreptitiously in the administrative level of the building. Nobody notices you.";
+		say "Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.";
 		continue the action;
 	else:
-		say "You should really change your disguise before going there.";
+		say "You sense that you should change your disguise first.";
 		stop the action;
 
 
@@ -360,15 +382,16 @@ At the time when the elderly man returns:
 		move elderly man to the cubicle;
 		now the elderly man is not upset;
 		if the player is in the cubicle:
-			say "You quickly move out of the cubicle to avoid looking suspicious.";
+			say "You quickly move out of the cubicle to avoid an encounter.";
 			move the player to Administration;
 
 Every turn when the location is Administration:
 	if the elderly man is upset, say "[one of]'Darn it', the man curses[or]'Rats!' the man mumbles[or]The man shakes his wet pages angrily[at random]."
 	
-After going the admin elevator:
-	say "You swipe the security pass across the elevator scanner, the doors slide open and you step inside. You feel gravity reduce as you descend underground...";
-	continue the action;
+Instead of unlocking the admin elevator with security pass:
+	say "You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...";
+	now the admin elevator is open;
+	try going north;
 	
 
 
@@ -389,6 +412,10 @@ Instead of turning a coffee mug:
 	
 Book - Data Center
 
+Instead of listening when the location is the Data Centre, say "You hear the low hum of the servers, forever working."
+
+Instead of smelling when the location is the Data Centre, say "The air down here is sterile, constantly cooled and filtered."
+
 Instead of asking a technician about something, say "[The technician] [one of]offers a detached look of boredom and returns to work[or]replies with a muted 'hmm'[at random]."
 
 Check logging on database terminal:
@@ -408,6 +435,7 @@ Carry out logging on database terminal:
 	if the data disc is not in the drive bay:
 		say "[italic type]Error - No disc in drive bay[roman type].";
 	else:
+		now the data disc is full;
 		say "You download the files to the data disc in the drive bay, you have what you came for. Now to advance your own agenda: you upload a trojan horse into the server, and log off.";
 
 Every turn when the location is the Data Centre and the strobe light is lit:
