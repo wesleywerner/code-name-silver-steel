@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0xe45730" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0xe45730"/>
+  <item nodeId="node-0xe45730">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Your fee is steep, but it barely makes a dent in their multinational corporate coffers, and it&apos;s not like these expenses will ever show up on any annual budget. So you doubled your rate for this job, they accepted, and here you are. Dressed to kill, standing in the foyer of MegaCorp, the target. Your employer&apos;s choice currency is blood money, their interest is information. Your goal is to retrieve some sensitive files, and to further your own agenda on the side...
+
+Code Name Silver Steel
+An Interactive Fiction by Special Agent
+Release 1 / Serial number 170421 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+MISSION BRIEFING: Enter the MegaCorp building under the guise of a repair man.
+
+OBJECTIVE: Infiltrate the administrative level of the building, steal a security pass to get access to the data centre. Download the secret files, and deploy a payload that will destroy the servers.
+
+Foyer
+The spacious foyer of the MegaCorp building carries indistinguishable sounds along the sterile tiled floor and angular furniture, giving the impression of cold detachment.
+
+You are standing by the reception desk in the centre of the room. The raised desk shields the small stature of the person behind it, oblivious to your presence.
+
+To the north is an elevator, and a door beside it.
+
+You can see a receptionist here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
