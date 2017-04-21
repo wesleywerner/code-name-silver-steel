@@ -1,8 +1,5 @@
 "Code Name Silver Steel" by Special Agent
 
-Include Terminals by Wesley Werner.
-
-
 Volume - NOTES
 
 [Headings are organized under "volume", "book", "part", "chapter" or "section"]
@@ -35,7 +32,7 @@ Volume - NOTES
 [ A technician is busy at the database terminal. They offer detached remarks on interrogation ]
 [ Access the fire control terminal, toggle the fire alarm test system ]
 [ Red strobe lights flash in the room. The technician exits promptly ]
-[ Access the database terminal. Download the files. Upload a payload. The terminal crashes ]
+[ Access the database terminal. Download the files. Upload a payload. ]
 [ epilogue ]
 
 	
@@ -214,23 +211,19 @@ A technician is in the Data Centre.
 
 A strobe light is in the Data Centre. It is scenery. The description is "A red strobe light fitted to the ceiling of the room. [if a strobe light is lit]It is flashing manically[else]It is waiting patiently until the day it is turned on[end if]."
 
-The fire control terminal is a switched on terminal in the Data Centre. 
+The fire control terminal is in the Data Centre. 
 It is fixed in place.
 
-Instead of examining the fire control terminal, say "This computer controls the fire detection and sprinkler systems of the building. You can [bold type]access terminal[roman type] to log on and [bold type]exit[roman type] to log off."
+Instead of examining the fire control terminal, say "This computer controls the fire detection and sprinkler systems of the building. You can [bold type]log on terminal[roman type] to use it."
 
-The welcome message of the fire control terminal is "MegaCorp Fire and Safety Control.[line break]Status: No Fires[line break]Available commands: schedule, exit"
-
-The database terminal is a switched on terminal in the Data Centre. 
+The database terminal is in the Data Centre. 
 It is fixed in place.
 
-The welcome message of the database terminal is "MegaCorp Database.[line break]Available commands: download, upload, exit"
+Instead of examining the database terminal, say "This computer controls the information database. You can [bold type]log on terminal[roman type] to use it."
 
-Instead of examining the database terminal, say "This computer controls the information database. You can [bold type]access terminal[roman type] to log on and [bold type]exit[roman type] to log off."
+The drive bay is a container. The description is "It is connected to the terminal, and has a slot to insert a data disc."
 
-A drive bay is a container. The description is "It is connected to the terminal, and has a slot to insert a data disc."
-
-A drive bay is part of the database terminal.
+The drive bay is part of the database terminal.
 
 
 
@@ -403,29 +396,23 @@ Check logging on database terminal:
 		say "You can't use that terminal while the tech is busy on it.";
 		stop the action;
 		
-Carry out executing on fire control terminal:
-	if the command of the fire control terminal is "schedule":
-		say "Fire test is scheduled in 2 minutes.";
-		the strobe light flashes in 1 minutes from now;
-		disconnect terminal;
+Carry out logging on fire control terminal:
+	if the strobe light is not lit:
+		now the technician is nowhere;
+		now the strobe light is lit;
+		say "[italic type]MegaCorp fire and safety control - Status: no fires - Activating fire drill - Logging off[roman type]...[paragraph break]A siren rings out loudly, accompanied by a flashing red light in the ceiling. The technician runs out through the rows of server racks, and disappears out of sight.";
 	else:
-		say "Unknown command.";
+		say "[italic type]Status: Drill in progress[roman type]...";
 	
-At the time when the strobe light flashes:
-	now the strobe light is lit;
-	now the technician is nowhere;
-	say "You hear a siren sounding and a red strobe light starts flashing. The technician runs out through the rows of server racks, and disappears out of sight.";
-
-Carry out executing on database terminal:
-	if the command of the database terminal is "download":
-		if the data disc is not in the drive bay:
-			say "Error - No disc in drive bay.";
-		else:
-			say "You download the files you came for and pull out the data disc from the drive bay.";
+Carry out logging on database terminal:
+	if the data disc is not in the drive bay:
+		say "[italic type]Error - No disc in drive bay[roman type].";
 	else:
-		say "Unknown command.";
+		say "You download the files to the data disc in the drive bay, you have what you came for. Now to advance your own agenda: you upload a trojan horse into the server, and log off.";
 
-	
+Every turn when the location is the Data Centre and the strobe light is lit:
+	say "[one of]A red light flashes in your eyes.[or]A siren blares.[purely at random]";
+
 
 Book - Walkthrough
 
@@ -434,6 +421,12 @@ Test walkthrough with "show woman the job card/go n/drop toolbox/open toolbox/ta
 Book - Hacked standard rules
 
 Book - New rules
+
+Understand "log on [something]" as logging on.
+Logging on is an action applying to one thing.
+
+
+
 
 Book - Scenes
 
