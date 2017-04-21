@@ -1,5 +1,8 @@
 "Code Name Silver Steel" by Special Agent
 
+Include Terminals by Wesley Werner.
+
+
 Volume - NOTES
 
 [Headings are organized under "volume", "book", "part", "chapter" or "section"]
@@ -66,6 +69,9 @@ A toolbox is a closed openable container. The description is "It looks just like
 
 A screwdriver is a thing in the toolbox. The description is "A phillips head screwdriver."
 
+A data disc is a thing in the toolbox. 
+The description of a data disc is "A round silvery disc for storing digital data."
+
 A suit is a wearable thing in the toolbox. The description is "A smart gray suit. The perfect attire for a day of espionage."
 
 A coffee mug is a thing. A coffee mug can be full or empty. A coffee mug is empty. The description is "A white unmarked mug.[if A coffee mug is full] It is filled with hot coffee.[end if]"
@@ -110,7 +116,7 @@ Understand "worker" or "workers" as elderly man.
 
 Part - Technician
 
-A technician is a woman. "A technician is working on one of the terminals." The description is "A middle-aged woman wearing a white coat."
+A technician is a woman. "A technician is here, working on a terminal." The description is "A middle-aged woman wearing a white coat."
 
 Understand "tech" as technician.
 
@@ -208,8 +214,23 @@ A technician is in the Data Centre.
 
 A strobe light is in the Data Centre. It is scenery. The description is "A red strobe light fitted to the ceiling of the room. [if a strobe light is lit]It is flashing manically[else]It is waiting patiently until the day it is turned on[end if]."
 
-The fire control terminal is in the Data Centre. It is fixed in place.
-The database terminal is in the Data Centre. It is fixed in place.
+The fire control terminal is a switched on terminal in the Data Centre. 
+It is fixed in place.
+
+Instead of examining the fire control terminal, say "This computer controls the fire detection and sprinkler systems of the building. You can [bold type]access terminal[roman type] to log on and [bold type]exit[roman type] to log off."
+
+The welcome message of the fire control terminal is "MegaCorp Fire and Safety Control.[line break]Status: No Fires[line break]Available commands: schedule, exit"
+
+The database terminal is a switched on terminal in the Data Centre. 
+It is fixed in place.
+
+The welcome message of the database terminal is "MegaCorp Database.[line break]Available commands: download, upload, exit"
+
+Instead of examining the database terminal, say "This computer controls the information database. You can [bold type]access terminal[roman type] to log on and [bold type]exit[roman type] to log off."
+
+A drive bay is a container. The description is "It is connected to the terminal, and has a slot to insert a data disc."
+
+A drive bay is part of the database terminal.
 
 
 
@@ -377,6 +398,35 @@ Book - Data Center
 
 Instead of asking a technician about something, say "[The technician] [one of]offers a detached look of boredom and returns to work[or]replies with a muted 'hmm'[at random]."
 
+Check logging on database terminal:
+	if a technician is in the location:
+		say "You can't use that terminal while the tech is busy on it.";
+		stop the action;
+		
+Carry out executing on fire control terminal:
+	if the command of the fire control terminal is "schedule":
+		say "Fire test is scheduled in 2 minutes.";
+		the strobe light flashes in 1 minutes from now;
+		disconnect terminal;
+	else:
+		say "Unknown command.";
+	
+At the time when the strobe light flashes:
+	now the strobe light is lit;
+	now the technician is nowhere;
+	say "You hear a siren sounding and a red strobe light starts flashing. The technician runs out through the rows of server racks, and disappears out of sight.";
+
+Carry out executing on database terminal:
+	if the command of the database terminal is "download":
+		if the data disc is not in the drive bay:
+			say "Error - No disc in drive bay.";
+		else:
+			say "You download the files you came for and pull out the data disc from the drive bay.";
+	else:
+		say "Unknown command.";
+
+	
+
 Book - Walkthrough
 
 Test walkthrough with "show woman the job card/go n/drop toolbox/open toolbox/take all from toolbox/wear suit/turn the screws/go n/go w/take mug/put coffee in mug/go e/put mug on copy machine/z/go cubicle/take security pass/exit/go n/unlock elevator with security pass/go elevator"
@@ -409,10 +459,6 @@ After printing the banner text:
 Book - help
 
 Volume - PUBLICATION
-
-section - extensions
-
-
 
 section - release
 
