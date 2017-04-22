@@ -256,7 +256,7 @@ Instead of opening the toolbox when the location is the Foyer:
 	
 [ win ]
 Carry out taking the data disc when the data disc is full:
-	say "You escape with the data.";
+	say "You grab the data disc and make your escape by way of elevator to the roof. You find a harness that you secretly stashed there on your reconnaissance mission last week. A few minutes later, a glider soars overhead, a cable trailing below it. The hook catches the trap and lifts you away.[paragraph break]Your mission was a success!";
 	end the story;
 
 
