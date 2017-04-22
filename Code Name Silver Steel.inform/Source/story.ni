@@ -81,6 +81,10 @@ A security pass unlocks the admin elevator.
 
 Book - People
 
+Part - Properties
+
+A person can be suspicious. A person is usually not suspicious.
+
 Part - Player
 
 The player is wearing the overall.
@@ -132,10 +136,10 @@ To the north is an elevator, and a door beside it."
 The tiles is scenery in the Foyer. The description is "Large white square tiles cover the foyer floor." 
 Understand "floor" as tiles. 
 
-The desk is scenery in the Foyer. The description is "It is a black circular reception desk, the surface is sleek as if resin coated." 
+The desk is scenery in the Foyer. The description is "It is a sleek black resin-coated circular reception desk." 
 
 The furniture is scenery in the Foyer. The description is "A low table and some chairs line the west wall." 
-Understand "chair/table" as furniture.
+Understand "chair/chairs/table" as furniture.
 
 The foyer elevator is scenery in the Foyer. The description is "A large and fancy person-carrier with built-in security." 
 Understand "lift" as foyer elevator. 
@@ -148,9 +152,7 @@ Part - Maintenance Quarters
 
 The Maintenance Quarters is a room. "The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.
 
-There is all manner of piping running along the roof. There is a panel in the north wall.
-
-The service passage leads off to the east."
+There is all manner of piping running along the roof. There is a panel in the north wall."
 
 Some piping is scenery in the Maintenance Quarters. The description is "Pipes of various sizes run along the ceiling. You guess they carry water, gas or waste."
 Understand "pipes" and "ceiling" as piping.
@@ -243,17 +245,27 @@ Book - Endings
 [ going back into the Foyer, while wearing the suit ]
 After going to the Foyer when the player is wearing a suit:
 	say "You neglectfully walk into [the location] wearing the suit, not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.";
-	end the story;
-
+	end the story saying "Your mission and life end here";
+	
 [ inserting the data disc in the drive bay, while the tech is in the room ]
 Check inserting the data disc into the drive bay when a technician is in the location:
 	say "'What are you doing?', the tech asks you. 'Who are you? Show me your security pass!'[paragraph break]She realizes that the pass does not belong to you, before you can react she trips an alarm. Armed men surround you within seconds and you are led away, never to be heard from again.";
-	end the story;
+	end the story saying "Your mission and life end here";
 
 [ opening your toolbox in the foyer - a warning only, not a real ending ]	
 Instead of opening the toolbox when the location is the Foyer:
 	say "You open your toolbox and the receptionist peers over her horn-rims at the toolbox contents: [a list of thing in the toolbox]. Realizing your mistake, you quickly flip it closed. You can't risk being caught.";
 	
+Instead of opening the service entrance when the player is not carrying the maintenance tag:
+	if the receptionist is suspicious:
+		say "You ignore the receptionist's warning and enter the doorway, she raises an alarm and within seconds you are surrounded by armed guards. You are promptly led away deep into the confines of the the building, never to be heard from again.";
+		end the story saying "Your mission and life end here";
+	else:
+		say "'Sir!', the receptionist calls after you, 'You can't enter there without clearance.' [italic type](You could ignore her warning and go ahead, if you dare).";
+		now the receptionist is suspicious;
+		[ remove suspicions soon ]
+		the receptionist relaxes in 2 minutes from now;
+		
 [ win ]
 Carry out taking the data disc when the data disc is full:
 	say "You grab the data disc and make your escape by way of elevator to the roof. You find a harness that you secretly stashed there on your reconnaissance mission last week. A few minutes later, a glider soars overhead, a cable trailing below it. The hook catches the trap and lifts you away.[paragraph break]Your mission was a success!";
@@ -288,10 +300,10 @@ Instead of taking the foyer elevator, say "You are not here to service their ele
 
 Instead of opening the foyer elevator, try entering the foyer elevator.
 
-Instead of entering the foyer elevator, say "'That way is not for maintenance', the receptionist says."
+Instead of entering the foyer elevator, say "'That elevator is for employees only, sir', the receptionist warns you."
 
 [ service entrance ]
-Instead of opening the service entrance when the player is not carrying the maintenance tag, say "'Sir!', the receptionist calls to you, 'You can't enter without a maintenance tag.'"
+[Instead of opening the service entrance when the player is not carrying the maintenance tag, say "'Sir!', the receptionist calls to you, 'You can't enter without a maintenance tag.'"]
 
 After opening the service entrance when the location is the Foyer, say "The receptionist eyes you from behind her fortress-desk as you open the door."
 
@@ -303,6 +315,11 @@ Instead of giving the job card to the receptionist:
 	say "'Fine', she says, handing you a clip-on tag. 'Carry this with you at all times. The maintenance door is there', she points north. 'Have a nice day'.";
 	now the receptionist carries the job card;
 	now the player carries the maintenance tag.
+	
+At the time when the receptionist relaxes:
+	now the receptionist is not suspicious;
+	
+
 
 
 Book - Maintenance Quarters Logic
