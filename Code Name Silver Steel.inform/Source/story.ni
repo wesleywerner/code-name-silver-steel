@@ -236,7 +236,7 @@ Volume - GAME LOGIC
 Book - Play Begins
 
 When play begins:
-	say "Your fee is steep, but it barely makes a dent in their multinational corporate coffers, and it's not like these expenses will ever show up on any annual budget. So you doubled your rate for this job, they accepted, and here you are. Dressed to kill, standing in the foyer of MegaCorp, the target. Your employer's choice currency is blood money, their interest is information. Your goal is to retrieve some sensitive files, and to further your own agenda on the side..." 
+	say "A freelance spy is a great job. It pays a lot and you get to travel to new and interesting places. The only downside is that you can die.[paragraph break]Your client's choice currency is blood money, their interest is information. Your goal is to steal important files, and to further your own agenda on the side.[paragraph break]So here you are: standing in the foyer of MegaCorp, dressed to kill... air conditioners? Well every job has boring moments." 
 		
 Book - Endings
 
@@ -473,17 +473,16 @@ Book - story description
 Book - banner text
 
 After printing the banner text:
-	say "[line break]MISSION BRIEFING: Enter the MegaCorp building under the guise of a repair man.";
-	say "[line break]OBJECTIVE: Infiltrate the administrative level of the building, steal a security pass to get access to the data centre. Download the secret files, and deploy a payload that will destroy the servers."
+	say "[line break]MISSION BRIEFING: Infiltrate MegaCorp under the guise of an air conditioning repair man, steal a security pass, get into the data centre and download the files."
 
 
 Book - help
 
 Volume - PUBLICATION
 
-section - release
+Book - release
 
 The story genre is "Fiction". 
 The story creation year is 2017. 
 
-section - addendum
+Book - addendum
