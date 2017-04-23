@@ -14,6 +14,12 @@
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <resources>
+            <auxiliary>
+                <leafname>Code Name Silver Steel.z8</leafname>
+                <description>z8 game file</description>
+            </auxiliary>
+        </resources>
         <releases>
             <attached>
                 <release>
