@@ -569,6 +569,8 @@ Book - release
 
 [ * Release a z8 file (non-blorb) into the Materials directory ]
 [ * Release as a blorb package - this includes the z8 from above ]
+[ * switch to gh-pages branch ]
+[ * cp -r "Code Name Silver Steel.materials/Release/*" . ]
 
 The story genre is "Fiction". 
 The story creation year is 2017. 
