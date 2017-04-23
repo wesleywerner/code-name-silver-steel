@@ -567,7 +567,13 @@ Volume - PUBLICATION
 
 Book - release
 
+[ * Release a z8 file (non-blorb) into the Materials directory ]
+[ * Release as a blorb package - this includes the z8 from above ]
+
 The story genre is "Fiction". 
 The story creation year is 2017. 
+Release along with a website, an interpreter and a public solution. 
+Release along with a file of "z8 game file" called "Code Name Silver Steel.z8".  
+
 
 Book - addendum
