@@ -279,8 +279,8 @@ When play begins:
 Book - Endings
 
 [ going back into the Foyer, while wearing the suit ]
-After going to the Foyer when the player is wearing a suit:
-	say "You neglectfully walk into [the location] wearing the suit, not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.";
+After going to the Foyer when the player is not wearing a overall:
+	say "You neglectfully walk into [the location] without the repairman disguise. Not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.";
 	end the story saying "Your mission and life end here";
 	
 [ inserting the data disc in the drive bay, while the tech is in the room ]
@@ -306,6 +306,11 @@ Instead of opening the service entrance when the player is not carrying the main
 [ attacking somebody results in your arrest - except where this action overrides a specific person ]
 Instead of attacking somebody (called the target):
 	say "[one of]Impulsively[or]Stupidly[or]Without thought[at random], you aim your spy watch at [the target], a small dart shoots into [their] [one of]neck[or]chest[or]arm[or]thigh[at random] and [they] collapses. Seconds later armed guards [one of]surround you[or]beat you down[or]shove you against the wall[or]grab you[at random]. You are taken deep into the confines of the building, never to be seen again.";
+	end the story saying "Your mission and life end here";
+
+[ inappropriate affections gets you arrested ]
+Instead of kissing somebody (called the target):
+	say "[The target] pushes you away and yells for 'security!' In a matter of seconds you are restrained, searched, and led away to a dark cell deep under the building, never to be seen again.";
 	end the story saying "Your mission and life end here";
 
 [ win ]
