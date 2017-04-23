@@ -78,18 +78,24 @@ A security pass is a wearable thing. The description is "A security pass attache
 
 A security pass unlocks the admin elevator.
 
+A wrist watch is a wearable thing. The description is "The time on your spy watch shows as [time of day]."
+
+Instead of taking off a wrist watch, say "A spy won't go anywhere without their watch."
+
 
 Book - People
 
 Part - Properties
 
 A person can be suspicious. A person is usually not suspicious.
+A person can be asleep. A person is usually not asleep.
 
 Part - Player
 
 The player is wearing the overall.
 The player is carrying the job card.
 The player is carrying a toolbox.
+The player is wearing a wrist watch.
 
 Part - Receptionist
 
@@ -118,7 +124,7 @@ Understand "worker" or "workers" as elderly man.
 
 Part - Technician
 
-A technician is a woman. "A technician is here, working on a terminal." The description is "A middle-aged woman wearing a long white coat. Her brown hair is tied up."
+A technician is a woman. "A technician is here, working on a terminal." The description is "[if a technician is asleep]Prone and unconscious on the floor[else]A middle-aged woman wearing a long white coat. Her brown hair is tied up[end if]."
 
 Understand "tech" as technician.
 
@@ -280,7 +286,7 @@ After going to the Foyer when the player is wearing a suit:
 	end the story saying "Your mission and life end here";
 	
 [ inserting the data disc in the drive bay, while the tech is in the room ]
-Check inserting the data disc into the drive bay when a technician is in the location:
+Check inserting the data disc into the drive bay when a not asleep technician is in the location:
 	say "'What are you doing?', the tech asks you. 'Who are you? Show me your security pass!'[paragraph break]She realizes that the pass does not belong to you, before you can react she trips an alarm. Armed men surround you within seconds and you are led away, never to be heard from again.";
 	end the story saying "Your mission and life end here";
 
@@ -288,6 +294,7 @@ Check inserting the data disc into the drive bay when a technician is in the loc
 Instead of opening the toolbox when the location is the Foyer:
 	say "You open your toolbox and the receptionist peers over her horn-rims at the toolbox contents: [a list of thing in the toolbox]. Realizing your mistake, you quickly flip it closed. You can't risk being caught.";
 	
+[ trying to open the door in the foyer warns you, on second attempt you are arrested ]
 Instead of opening the service entrance when the player is not carrying the maintenance tag:
 	if the receptionist is suspicious:
 		say "You ignore the receptionist's warning and enter the doorway, she raises an alarm and within seconds you are surrounded by armed guards. You are promptly led away deep into the confines of the the building, never to be heard from again.";
@@ -298,6 +305,11 @@ Instead of opening the service entrance when the player is not carrying the main
 		[ remove suspicions soon ]
 		the receptionist relaxes in 2 minutes from now;
 		
+[ attacking somebody results in your arrest - except where this action overrides a specific person ]
+Instead of attacking somebody (called the target):
+	say "[one of]Impulsively[or]Stupidly[or]Without thought[at random], you aim your spy watch at [the target], a small dart shoots into [their] [one of]neck[or]chest[or]arm[or]thigh[at random] and [they] collapses. Seconds later armed guards [one of]surround you[or]beat you down[or]shove you against the wall[or]grab you[at random]. You are taken deep into the confines of the building, never to be seen again.";
+	end the story saying "Your mission and life end here";
+
 [ win ]
 Carry out taking the data disc when the data disc is full:
 	say "You grab the data disc and make your escape by way of elevator to the roof. You find a harness that you secretly stashed there on your reconnaissance mission last week. A few minutes later, a glider soars overhead, a cable trailing below it. The hook catches the trap and lifts you away.[paragraph break]Your mission was a success!";
@@ -311,7 +323,7 @@ Book - Foyer Logic
 [ senses ]
 Instead of smelling when the location is the foyer, say "The scent of floral bleach lingers near the floor."
 
-Instead of listening when the location is the foyer, say "You hear the ghostly echoes of unseen busy-bodies elsewhere in the building, interspersed with the clickety-clacks of the receptionist's typing."
+Instead of listening when the location is the foyer, say "You hear the ghostly echoes of unseen busy-bodies elsewhere in the building, interspersed with the 'click-clacks' of the receptionist's typing."
 
 Instead of dropping the toolbox when the location is the Foyer, say "You will need your toolbox later."
 
@@ -465,10 +477,19 @@ Instead of listening when the location is the Data Centre, say "You hear the low
 
 Instead of smelling when the location is the Data Centre, say "The air down here is sterile, constantly cooled and filtered."
 
-Instead of asking a technician about something, say "[The technician] [one of]offers a detached look of boredom and returns to work[or]replies with a muted 'hmm'[at random]."
+Instead of asking a not asleep technician about something, say "[The technician] [one of]offers a detached look of boredom and returns to work[or]replies with a muted 'hmm'[at random]."
+
+[ to use the one terminal, we need to get rid of the technician. we can attack the technician to knock them out, or set off the fire alarm via the fire control terminal ]
+
+Instead of attacking a not asleep technician:
+	say "You aim your spy watch at [the technician], a tranquilizer dart shoots into [their] [one of]neck[or]chest[or]arm[or]thigh[at random] and [they] collapses to the floor, unconscious.";
+	now the technician is asleep; 
+
+Instead of attacking a asleep technician:
+	say "No need to be mean, one dart is enough."
 
 Check logging on database terminal:
-	if a technician is in the location:
+	if a technician is in the location and a technician is not asleep:
 		say "You can't use that terminal while the tech is busy on it.";
 		stop the action;
 		
@@ -476,7 +497,7 @@ Carry out logging on fire control terminal:
 	if the strobe light is not lit:
 		now the technician is nowhere;
 		now the strobe light is lit;
-		say "[italic type]MegaCorp fire and safety control - Status: no fires - Activating fire drill - Logging off[roman type]...[paragraph break]A siren rings out loudly, accompanied by a flashing red light in the ceiling. The technician runs out through the rows of server racks, and disappears out of sight.";
+		say "[italic type]MegaCorp fire and safety control - Status: no fires - Activating fire drill - Logging off[roman type]...[paragraph break]A siren rings out loudly, accompanied by a flashing red light in the ceiling.[if a technician is not asleep] The technician runs out through the rows of server racks, and disappears out of sight[else]The unconscious technician does not seem to mind the noise[end if].";
 	else:
 		say "[italic type]Status: Drill in progress[roman type]...";
 	
