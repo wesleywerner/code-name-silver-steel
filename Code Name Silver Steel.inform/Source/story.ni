@@ -174,16 +174,17 @@ Some screws are part of the access panel. The description is "Steel pins with sp
 
 Part - Administration Room
 
-Administration is a room. "[if the location is not visited]You are standing against the wall in a large room. The space is divided into a dozen cubicles. Unlike a beehive of activity, most of the suits working here are sitting inside their small cells. The room has the dull hum of a funeral parlour.[paragraph break][end if]
+Administration is a room. "You are standing against the wall in a large room. The space is divided into a dozen cubicles. Unlike a beehive of activity, most of the suits working here are sitting inside their small cells. The room has the dull hum of a funeral parlour.  
+
 A cubicle is nearby. [if the Breakroom is visited]The Breakroom is to the west[else]There is a doorway to the west[end if], and an elevator to the north."
 
-The copy machine is a supporter in Administration. The description is "It is a chunky piece of machinery with many tiny buttons. You notice coffee-ring stains on top of the machine. Somebody has a bad habit of putting their cups on the machine."
+The copy machine is a supporter in Administration. The description is "It is a chunky piece of machinery with many tiny buttons. You notice stains on top of the machine."
 
 Some buttons are a part of the copy machine. The description is "They are embedded in the copy machine, imprinted with icons of their functions."
 
 Understand "icons" as some buttons.
 
-Some stains are part of the copy machine. The description is "The stains are made prominent by their location: where a cup is most prone to spill."
+Some stains are part of the copy machine. The description is "They are coffee ring stains, their location suggests it is where a cup is prone to spill. Somebody has a bad habit of putting their cups on the copy machine."
 
 Instead of taking some stains, say "You are not here to clean the office equipment."
 	
@@ -309,7 +310,7 @@ Instead of attacking somebody (called the target):
 
 [ win ]
 Carry out taking the data disc when the data disc is full:
-	say "You grab the data disc and make your escape by way of elevator to the roof. You find a harness that you secretly stashed there on your reconnaissance mission last week. A few minutes later, a glider soars overhead, a cable trailing below it. The hook catches the trap and lifts you away.[paragraph break]Your mission was a success!";
+	say "You grab the data disc and make your escape by way of elevator to the roof. You reverse you suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.[paragraph break]Your mission was a success!";
 	end the story;
 
 
@@ -467,6 +468,11 @@ Instead of inserting A coffee pot into A coffee mug:
 Instead of turning a coffee mug:
 	if a coffee mug is empty, say "There are no markings underneath the mug.";
 	if a coffee mug is full, say "If you turn the full cup, it will spill.";
+	
+Instead of drinking a coffee mug when the coffee mug is empty, say "The mug is empty."
+
+Instead of drinking a coffee mug when the coffee mug is full, say "Hmm not bad."
+
 	
 Book - Data Center
 
