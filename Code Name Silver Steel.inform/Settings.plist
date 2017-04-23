@@ -24,7 +24,7 @@
 		<key>IFSettingCreateBlorb</key>
 		<false/>
 		<key>IFSettingNobbleRng</key>
-		<false/>
+		<true/>
 		<key>IFSettingZCodeVersion</key>
 		<integer>8</integer>
 	</dict>
