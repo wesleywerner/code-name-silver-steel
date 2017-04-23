@@ -2,8 +2,6 @@
 
 Volume - NOTES
 
-[Headings are organized under "volume", "book", "part", "chapter" or "section"]
-
 [ ENTRANCE ]
 [ Infiltrate the building as a AC repair man using a fake ID ]
 [ Enter a service entrance to the maintenance level ]
@@ -174,7 +172,7 @@ Some screws are part of the access panel. The description is "Steel pins with sp
 
 Part - Administration Room
 
-Administration is a room. "You are standing against the wall in a large room. The space is divided into a dozen cubicles. Unlike a beehive of activity, most of the suits working here are sitting inside their small cells. The room has the dull hum of a funeral parlour.  
+Administration is a room. "You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.  
 
 A cubicle is nearby. [if the Breakroom is visited]The Breakroom is to the west[else]There is a doorway to the west[end if], and an elevator to the north."
 
@@ -220,12 +218,23 @@ Part - Data Centre
 
 Data Centre is a room. "Rows upon rows of server racks fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, these are used to access various systems in the building."
 
+Some cables are in the Data Centre. It is scenery. The description is "They network the computers to each other." 
+Understand "cabling" as cables.
+
+Instead of pulling cables, try taking cables.
+Instead of taking cables, say "That won't help. If you disable the network, you can't copy the database."
+
+Some racks are in the Data Centre. They are scenery. The description is "Large steel racks where the servers are kept."
+
+Some servers are in the Data Centre. They are scenery. The description is "Powerful computers that control various aspects of the company. Some of the servers can be accessed by computer terminals."
+
 A technician is in the Data Centre.
 
 A strobe light is in the Data Centre. It is scenery. The description is "A red strobe light fitted to the ceiling of the room. [if a strobe light is lit]It is flashing manically[else]It is waiting patiently until the day it is turned on[end if]."
 
 [ helper thing to point examining in the right direction ]
 Some terminals are in the Data Centre. It is scenery. The description is "You notice two terminals nearby: a database terminal, and a fire control terminal."
+Understand "computer terminals" as terminals.
 
 The fire control terminal is in the Data Centre. 
 It is fixed in place.
@@ -505,7 +514,7 @@ Carry out logging on fire control terminal:
 	if the strobe light is not lit:
 		now the technician is nowhere;
 		now the strobe light is lit;
-		say "[italic type]MegaCorp fire and safety control - Status: no fires - Activating fire drill - Logging off[roman type]...[paragraph break]A siren rings out loudly, accompanied by a flashing red light in the ceiling.[if a technician is not asleep] The technician runs out through the rows of server racks, and disappears out of sight[else]The unconscious technician does not seem to mind the noise[end if].";
+		say "[italic type]MegaCorp fire and safety control - Status: no fires - Activating fire drill[roman type][paragraph break]A siren rings out loudly, accompanied by a flashing red light in the ceiling.[if a technician is not asleep]The technician runs through the rows of servers, out of sight[else]The unconscious technician does not seem to mind the noise[end if].";
 	else:
 		say "[italic type]Status: Drill in progress[roman type]...";
 	
