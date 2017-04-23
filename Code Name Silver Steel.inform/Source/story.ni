@@ -235,10 +235,42 @@ The drive bay is part of the database terminal.
 
 Volume - GAME LOGIC
 
+Book - Help System
+
+Include Basic Screen Effects by Emily Short.
+
+To offer help prompt:
+	say "[line break][italic type]Have you played interactive fiction before? (yes or no) "; 
+	if not the player consents:
+		say "[help text]";
+		say "--more--";
+		wait for any key;
+		
+To say help text:
+	say "[line break]You can show this help at any time by typing 'help'.";
+	say "[line break]Interactive fiction tells you the beginning of a story. Then it puts you in charge and lets you decide what your character should do. You type commands for the main character to carry out, and the story replies by telling you what happens next.[paragraph break]";
+	say "[bold type]Moving: [roman type]GO NORTH, GO N, N, S, E, W.";
+	say "GO UP, DOWN, to use stairs and ladders.";
+	say "[bold type]Looking: [roman type]LOOK around the room.";
+	say "EXAMINE THE KEY, abbrv to X KEY.";
+	say "[bold type]Items: [roman type]TAKE THE KEY or GET KEY. DROP THE KEY.";
+	say "INVENTORY, abbrv to I, shows what you are carrying.";
+	say "PUT THE CUP ON THE TABLE.";
+	say "[bold type]Clothing: [roman type]WEAR THE JACKET. REMOVE THE HAT.";
+	say "[bold type]Doors: [roman type]OPEN THE DOOR. UNLOCK THE DOOR WITH THE BRASS KEY.";
+	say "[bold type]People: [roman type]GIVE THE KEY TO MARGARET.";
+	say "SHOW THE MAP TO THE ANCIENT MAN.";
+	say "ASK THE GHOST ABOUT THE ACCIDENT.";
+	say "[roman type]";
+	
+Asking for help is an action out of world. Understand "help" as asking for help.
+Carry out asking for help: say "[help text]".
+		
+
 Book - Play Begins
 
 When play begins:
-	say "A freelance spy is a great job. It pays a lot and you get to travel to new and interesting places. The only downside is that you can die.[paragraph break]Your client's choice currency is blood money, their interest is information. Your goal is to steal important files, and to further your own agenda on the side.[paragraph break]So here you are: standing in the foyer of MegaCorp, dressed to kill... air conditioners? Well every job has boring moments." 
+	say "A freelance spy is a great job. It pays a lot and you get to travel to new and interesting places. The only downside is that you can die.[paragraph break]Your client's choice currency is blood money, their interest is information. Your goal is to steal important files, and to further your own agenda on the side.[paragraph break]So here you are: standing in the foyer of MegaCorp, dressed to kill... air conditioners? Well every job has boring moments.";
 		
 Book - Endings
 
@@ -490,7 +522,9 @@ Book - story description
 Book - banner text
 
 After printing the banner text:
-	say "[line break]MISSION BRIEFING: Infiltrate MegaCorp under the guise of an air conditioning repair man, steal a security pass, get into the data centre and download the files."
+	say "[line break]MISSION BRIEFING: Infiltrate MegaCorp under the guise of an air conditioning repair man, steal a security pass, get into the data centre and download the files.";
+	offer help prompt;
+
 
 
 Book - help
