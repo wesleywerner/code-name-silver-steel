@@ -173,6 +173,8 @@ It is north of the Maintenance Quarters and south of Administration.
 
 Some screws are part of the access panel. The description is "Steel pins with spiralling shafts used to fix other things in place. Usually turned by a screwdriver."
 
+A tunnel is scenery in the Maintenance Quarters. The description is "The service tunnel leads to a stairwell used in case of fires."
+Instead of entering a tunnel, try going the access panel.
 
 Part - Administration Room
 
