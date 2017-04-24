@@ -477,10 +477,17 @@ At the time when the elderly man returns:
 Every turn when the location is Administration:
 	if the elderly man is upset, say "[one of]'Darn it', the man curses[or]'Rats!' the man mumbles[or]The man shakes his wet pages angrily[at random]."
 	
+Instead of opening the locked admin elevator:
+	if the player carries a security pass:
+		try unlocking the admin elevator with security pass;
+	else:
+		say "The elevator is locked. It looks like you need a security pass to unlock it.";
+	
 Instead of unlocking the admin elevator with security pass:
 	say "You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...";
 	now the admin elevator is open;
 	try going north;
+	
 	
 
 
@@ -555,7 +562,6 @@ Book - New rules
 
 Understand "log on [something]" as logging on.
 Logging on is an action applying to one thing.
-
 
 
 
