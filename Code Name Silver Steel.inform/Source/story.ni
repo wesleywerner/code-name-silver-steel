@@ -57,6 +57,7 @@ Part - Player Inventory
 A job card is a thing. The description is "[one of]This is a forged job card that states you are on-site to repair a faulty air conditioning unit. During the past week you gained access to the company intranet, and forged a matching maintenance record on their systems.[or]A forged job card.[stopping]". 
 
 An overall is a wearable thing. The description is "[if overall is worn by player]This is your disguise. [end if]It is a light brown workman's overall."
+Understand "overalls" as overall.
 
 A maintenance tag is a thing. The description is "A minimal security pass that entitles you to do maintenance work."
 
@@ -64,15 +65,17 @@ A toolbox is a closed openable container. The description is "It looks just like
 
 A screwdriver is a thing in the toolbox. The description is "A phillips head screwdriver."
 
-A data disc is a thing in the toolbox. 
-A data disc can be full.
-The description of a data disc is "A round silvery disc for storing digital data."
+A data disk is a thing in the toolbox. 
+A data disk can be full.
+The description of a data disk is "A round silver magnetic disk for storing digital data."
+Understand "disc" as data disk.
 
 A suit is a wearable thing in the toolbox. The description is "A smart gray suit. The perfect attire for a day of espionage."
 
 A coffee mug is a thing. A coffee mug can be full or empty. A coffee mug is empty. The description is "A white unmarked mug.[if A coffee mug is full] It is filled with hot coffee.[end if]"
 
 A security pass is a wearable thing. The description is "A security pass attached to a lanyard. The print on the card reads 'elevator access'."
+Understand "security card" or "card" as security pass.
 
 A security pass unlocks the admin elevator.
 
@@ -246,7 +249,7 @@ It is fixed in place.
 
 Instead of examining the database terminal, say "This terminal controls the information database. You notice a drive bay attached to it. You can [bold type]log on terminal[roman type] to use it."
 
-The drive bay is a container. The description is "A peripheral that is connected to the database terminal, used to copy files on and off the server. It has a slot to insert a data disc."
+The drive bay is a container. The description is "A peripheral that is connected to the database terminal, used to copy files on and off the server. It has a slot to insert a data disk."
 
 The drive bay is part of the database terminal.
 
@@ -292,8 +295,8 @@ After going to the Foyer when the player is not wearing a overall:
 	say "You neglectfully walk into [the location] without the repairman disguise. Not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.";
 	end the story saying "Your mission and life end here";
 	
-[ inserting the data disc in the drive bay, while the tech is in the room ]
-Check inserting the data disc into the drive bay when a not asleep technician is in the location:
+[ inserting the data disk in the drive bay, while the tech is in the room ]
+Check inserting the data disk into the drive bay when a not asleep technician is in the location:
 	say "'What are you doing?', the tech asks you. 'Who are you? Show me your security pass!'[paragraph break]She realizes that the pass does not belong to you, before you can react she trips an alarm. Armed men surround you within seconds and you are led away, never to be heard from again.";
 	end the story saying "Your mission and life end here";
 
@@ -323,8 +326,8 @@ Instead of kissing somebody (called the target):
 	end the story saying "Your mission and life end here";
 
 [ win ]
-Carry out taking the data disc when the data disc is full:
-	say "You grab the data disc and make your escape by way of elevator to the roof. You reverse you suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.[paragraph break]Your mission was a success!";
+Carry out taking the data disk when the data disk is full:
+	say "You grab the data disk and make your escape by way of elevator to the roof. You reverse you suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.[paragraph break]Your mission was a success!";
 	end the story;
 
 
@@ -519,11 +522,11 @@ Carry out logging on fire control terminal:
 		say "[italic type]Status: Drill in progress[roman type]...";
 	
 Carry out logging on database terminal:
-	if the data disc is not in the drive bay:
-		say "[italic type]Error - No disc in drive bay[roman type].";
+	if the data disk is not in the drive bay:
+		say "[italic type]Error - No disk in drive bay[roman type].";
 	else:
-		now the data disc is full;
-		say "You download the files to the data disc in the drive bay, you have what you came for. Now to advance your own agenda: you upload a trojan horse into the server, and log off.";
+		now the data disk is full;
+		say "You download the files to the data disk in the drive bay, you have what you came for. Now to advance your own agenda: you upload a trojan horse into the server, and log off.";
 
 Every turn when the location is the Data Centre and the strobe light is lit:
 	say "[one of]A red light flashes in your eyes.[or]A siren blares.[purely at random]";
