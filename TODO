@@ -1,0 +1,43 @@
+# Add Synonymns
+
+security pass: security card
+overall: overalls
+data disc: data disk
+toolbox: tool box
+
+# Other
+
+foyer
+a maintenance tag: make it wearable.
+
+maintenance
+"unscrew panel" should direct action to turn screws.
+add actions for "x tunnel" and "enter tunnel".
+automaticaly drop the toolbox when entering this room. also don't let the player pick it up. we can't walk around in a suit carrying it.
+removing the overall auto drops it to the floor.
+
+administration
+opening a locked elevetor should direct action to unlock with pass (this will also catch going north, which tries to open it for you).
+"use security pass" and "use pass on elevator" should direct to unlocking the elevetor.
+
+breakroom
+mention poster in room description.
+taking the mug should auto fill it with coffee. (the intent to fill a mug is clear, so let's save the player from this extra step)
+
+data centre
+refusing to leave the room without the disc. Also also, you're not supposed to use the elevator in a fire drill!
+
+
+# actions
+
+implement "talk to [character]".
+Talking to the receptionist can make it clear that she's interested in your security clearance and nothing else.
+create the elderly man so he uses the copy machine every few turns and immediately returns to his cubicle.
+
+# Typos
+
+"you suit jacket"
+
+# Room descriptions
+
+I thought some of the wording in the intro was a little bit odd. For example, "The spacious foyer ... carries indistinguishable sounds along the sterile tiled floor and angular furniture" How does a foyer carry sounds? Sounds also don't usually travel along the floor, and I can't figure out how they would travel "along angular furniture." It feels like you are trying to cram too much into this first sentence. What about: "Indistinguishable murmuring(?) greets you in the spacious foyer of the MegaCorp Building. The sterile tiled floor and angular furniture give an impression of cold detachment." The second sentence of the next paragraph is also a little odd: "The raised desk shields the small stature of the person behind it...." The desk shields the stature of the person? Maybe: "The raised desk shields the short person behind it...." This may seem really nitpicky, but the intro is where the player gets their first impression of your game.
