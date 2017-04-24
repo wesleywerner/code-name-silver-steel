@@ -59,7 +59,7 @@ A job card is a thing. The description is "[one of]This is a forged job card tha
 An overall is a wearable thing. The description is "[if overall is worn by player]This is your disguise. [end if]It is a light brown workman's overall."
 Understand "overalls" as overall.
 
-A maintenance tag is a thing. The description is "A minimal security pass that entitles you to do maintenance work."
+A maintenance tag is a wearable thing. The description is "A minimal security pass that entitles you to do maintenance work."
 
 A toolbox is a closed openable container. The description is "It looks just like a metal toolbox, the red paint is even scuffed away along the edges. In reality it is just a metal toolbox, except it contains spy gear. Best you open it in private."
 
