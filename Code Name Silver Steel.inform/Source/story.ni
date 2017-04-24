@@ -331,7 +331,7 @@ Instead of kissing somebody (called the target):
 
 [ win ]
 Carry out taking the data disk when the data disk is full:
-	say "You grab the data disk and make your escape by way of elevator to the roof. You reverse you suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.[paragraph break]Your mission was a success!";
+	say "You grab the data disk and make your escape up the stairs to the roof. You reverse you suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.[paragraph break]Your mission was a success!";
 	end the story;
 
 
@@ -428,12 +428,15 @@ Instead of going the access panel, try going north.
 
 [ only exit north when wearing the suit ]
 Check going north when the location is the Maintenance Quarters and the access panel is open:
-	if the player is wearing a suit:
-		say "Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.";
-		continue the action;
-	else:
+	if the player is not carrying the data disk:
+		say "You probably need that data disk for copying the files later.";
+		stop the action;
+	if the player is not wearing a suit:
 		say "You sense that you should change your disguise first.";
 		stop the action;
+	say "Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.";
+	continue the action;
+
 
 
 Book - Administration Logic
@@ -525,6 +528,9 @@ Instead of listening when the location is the Data Centre, say "You hear the low
 Instead of smelling when the location is the Data Centre, say "The air down here is sterile, constantly cooled and filtered."
 
 Instead of asking a not asleep technician about something, say "[The technician] [one of]offers a detached look of boredom and returns to work[or]replies with a muted 'hmm'[at random]."
+
+Instead of going when the location is the Data Centre:
+	say "You can't leave yet, you have to complete your mission."
 
 [ to use the one terminal, we need to get rid of the technician. we can attack the technician to knock them out, or set off the fire alarm via the fire control terminal ]
 
