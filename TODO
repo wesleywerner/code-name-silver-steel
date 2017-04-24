@@ -1,34 +1,33 @@
-# Add Synonymns
+# Synonymns
 
-security pass: security card
-overall: overalls
-data disc: data disk
-toolbox: tool box
+"security pass" is understood as "security card"
+"overall" is understood as "overalls"
+"toolbox" is understood as "tool box"
+"data disc" is renamed to "data disk"
 
-# Other
+Note: Merriam-Webster’s defines “disk” as “a round flat plate coated with a magnetic substance on which data for a computer is stored.” It goes on to say that an “optical disk” (like a “videodisc” or a “CD”) is usually spelled “disc”. For this reason I renamed this item to the "disk" variant, but both spellings are now understood by the game.
 
-foyer
-a maintenance tag: make it wearable.
+# Items
+
+The maintenance tag is now wearable.
+
+# Actions
 
 maintenance
-"unscrew panel" should direct action to turn screws.
-add actions for "x tunnel" and "enter tunnel".
+"unscrew panel" directs the action to "turn screws".
+add scenery for "tunnel" and allow "go/enter tunnel".
 automaticaly drop the toolbox when entering this room. also don't let the player pick it up. we can't walk around in a suit carrying it.
-removing the overall auto drops it to the floor.
+removing the overall drops it to the floor.
 
 administration
-opening a locked elevetor should direct action to unlock with pass (this will also catch going north, which tries to open it for you).
-"use security pass" and "use pass on elevator" should direct to unlocking the elevetor.
+going through, opening or entering the locked elevator while carrying the security pass, will automaticaly unlock it for you.
 
 breakroom
-mention poster in room description.
-taking the mug should auto fill it with coffee. (the intent to fill a mug is clear, so let's save the player from this extra step)
+mention the poster in the breakroom description.
+Taking the mug should auto fill it with coffee. (the intent to fill a mug is clear, so let's save the player from this extra step)
 
 data centre
-refusing to leave the room without the disc. Also also, you're not supposed to use the elevator in a fire drill!
-
-
-# actions
+Prevent leaving the data centre, and prevent exiting maintenance room without the data disk. Also also, you're not supposed to use the elevator in a fire drill!
 
 implement "talk to [character]".
 Talking to the receptionist can make it clear that she's interested in your security clearance and nothing else.
