@@ -173,6 +173,7 @@ It is north of the Maintenance Quarters and south of Administration.
 
 Some screws are part of the access panel. The description is "Steel pins with spiralling shafts used to fix other things in place. Usually turned by a screwdriver."
 
+
 Part - Administration Room
 
 Administration is a room. "You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.  
@@ -407,7 +408,7 @@ Instead of turning the screws:
 	else:
 		say "The screws are already loosened."
 
-Understand "unscrew panel" as a mistake("Perhaps you meant to [bold type]turn screws[roman type]?")
+Instead of turning access panel, try turning screws.
 
 [ force going north when entering the access panel, to enforce the going rule ]
 Instead of going the access panel, try going north.
