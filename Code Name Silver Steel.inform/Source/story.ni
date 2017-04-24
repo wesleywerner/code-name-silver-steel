@@ -392,6 +392,10 @@ Last report going to the Maintenance Quarters for the first time:
 	
 Instead of taking the toolbox when the location is the Maintenance Quarters, say "You won't need the toolbox anymore[if the number of things in the toolbox is greater than zero], but you might want to look inside it[end if]."
 
+Instead of taking off the overall when the player is wearing the overall and the location is the Maintenance Quarters:
+	say "You remove the overall and drop it on the floor.";
+	move the overall to the location;
+
 Carry out wearing a suit:
 	if the player is wearing the overall:
 		say "You remove the overall and drop it on the floor.";
