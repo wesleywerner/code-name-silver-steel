@@ -212,11 +212,12 @@ The security pass is in the cubicle.
 
 Part - Break Room
 
-The Breakroom is a room. "You are in a bare room without furniture. You guess MegaCorp doesn't want relaxed employees." It is west of Administration.
+The Breakroom is a room. "This room has no furniture. You guess MegaCorp doesn't want relaxed employees." It is west of Administration.
 
-The counter is in the Breakroom. "There is a pot of coffee on a counter here." The description is "Wall mounted and serving one very important purpose: to keep the coffee pot off the ground. There is some kind of poster fixed to the side."
+The counter is in the Breakroom. "There is a pot of coffee on a counter here. A page is fixed to the side of the counter." The description is "Wall mounted and serving one very important purpose: to keep the coffee pot off the ground. There is some kind of poster fixed to the side."
 
-A poster is part of the counter. The description is "[italic type]Do not put your coffee mugs on the copier. You will be liable for any damages due to spillage - Management[roman type]"
+A poster is part of the counter. The description is "[italic type]Do not put your coffee mugs on the copier. You will be liable for any damages due to spillage - Management[roman type]".
+Understand "page" as poster.
 
 A coffee pot and a coffee mug is in the breakroom.
 
@@ -510,6 +511,7 @@ Instead of drinking a coffee mug when the coffee mug is empty, say "The mug is e
 
 Instead of drinking a coffee mug when the coffee mug is full, say "Hmm not bad."
 
+Instead of taking a poster, say "You try pulling the page but it is stuck on there pretty good. You don't need it anyway."
 	
 Book - Data Center
 
