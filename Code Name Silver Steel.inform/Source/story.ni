@@ -72,7 +72,7 @@ Understand "disc" as data disk.
 
 A suit is a wearable thing in the toolbox. The description is "A smart gray suit. The perfect attire for a day of espionage."
 
-A coffee mug is a thing. A coffee mug can be full or empty. A coffee mug is empty. The description is "A white unmarked mug.[if A coffee mug is full] It is filled with hot coffee.[end if]"
+A coffee mug is a thing. A coffee mug can be full or empty. A coffee mug is empty. The description is "A white unmarked mug.[if A coffee mug is full] It has hot coffee in it.[end if]"
 
 A security pass is a wearable thing. The description is "A security pass attached to a lanyard. The print on the card reads 'elevator access'."
 Understand "security card" or "card" as security pass.
@@ -512,6 +512,11 @@ Instead of drinking a coffee mug when the coffee mug is empty, say "The mug is e
 Instead of drinking a coffee mug when the coffee mug is full, say "Hmm not bad."
 
 Instead of taking a poster, say "You try pulling the page but it is stuck on there pretty good. You don't need it anyway."
+
+Carry out taking a mug:
+	say "You fill the mug with hot coffee.";
+	now the mug is full;
+	continue the action;
 	
 Book - Data Center
 
