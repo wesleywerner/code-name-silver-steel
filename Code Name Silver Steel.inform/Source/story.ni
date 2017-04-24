@@ -386,6 +386,12 @@ At the time when the receptionist relaxes:
 
 Book - Maintenance Quarters Logic
 
+Last report going to the Maintenance Quarters for the first time:
+	say "You put the toolbox down.";
+	move the toolbox to the location;
+	
+Instead of taking the toolbox when the location is the Maintenance Quarters, say "You won't need the toolbox anymore[if the number of things in the toolbox is greater than zero], but you might want to look inside it[end if]."
+
 Carry out wearing a suit:
 	if the player is wearing the overall:
 		say "You remove the overall and drop it on the floor.";
