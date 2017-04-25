@@ -62,6 +62,7 @@ Understand "overalls" as overall.
 A maintenance tag is a wearable thing. The description is "A minimal security pass that entitles you to do maintenance work."
 
 A toolbox is a closed openable container. The description is "It looks just like a metal toolbox, the red paint is even scuffed away along the edges. In reality it is just a metal toolbox, except it contains spy gear. Best you open it in private."
+Understand "tool box" as toolbox.
 
 A screwdriver is a thing in the toolbox. The description is "A phillips head screwdriver."
 
