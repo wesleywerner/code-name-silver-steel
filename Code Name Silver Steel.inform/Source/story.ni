@@ -139,9 +139,9 @@ Book - Rooms
 
 Part - Foyer
 	
-The Foyer is a room. "The spacious foyer of the MegaCorp building carries indistinguishable sounds along the sterile tiled floor and angular furniture, giving the impression of cold detachment.
+The Foyer is a room. "You are in the spacious foyer of the MegaCorp Building. The room gives you the feeling of businesslike detachment.
 
-You are standing by the reception desk in the centre of the room. The raised desk shields the small stature of the person behind it, oblivious to your presence.
+You are standing by the reception desk in the centre of the room, a small receptionist is sitting behind it.
 
 To the north is an elevator, and a door beside it.
 [if the location is not visited]
@@ -153,7 +153,7 @@ Understand "floor" as tiles.
 
 The desk is scenery in the Foyer. The description is "It is a sleek black resin-coated circular reception desk." 
 
-The furniture is scenery in the Foyer. The description is "A low table and some chairs line the west wall." 
+The furniture is scenery in the Foyer. The description is "A low table and some chairs line the west wall. Their design is very angular." 
 Understand "chair/chairs/table" as furniture.
 
 The foyer elevator is scenery in the Foyer. The description is "A large and fancy person-carrier with built-in security." 
@@ -165,7 +165,7 @@ Understand "door" as service entrance.
 
 Part - Maintenance Quarters
 
-The Maintenance Quarters is a room. "The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.
+The Maintenance Quarters is a room. "A small room with grey walls that drain the feng shui out of the carefully crafted maintenance quarters.
 
 There is all manner of piping running along the roof. There is a panel in the north wall."
 
@@ -183,7 +183,7 @@ Instead of entering a tunnel, try going the access panel.
 
 Part - Administration Room
 
-Administration is a room. "You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.  
+Administration is a room. "The large room is divided into a dozen cubicles, and it has the dull hum of a funeral parlour.  
 
 A cubicle is nearby. [if the Breakroom is visited]The Breakroom is to the west[else]There is a doorway to the west[end if], and an elevator to the north."
 
@@ -228,7 +228,7 @@ A coffee pot and a coffee mug is in the breakroom.
 
 Part - Data Centre
 
-Data Centre is a room. "Rows upon rows of server racks fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, these are used to access various systems in the building."
+Data Centre is a room. "Rows upon rows of servers fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, used to access various systems in the building."
 
 Some cables are in the Data Centre. It is scenery. The description is "They network the computers to each other." 
 Understand "cabling" as cables.
@@ -293,9 +293,9 @@ Book - Play Begins
 When play begins:
 	say "A freelance spy is a great job. It pays well and you get to travel to new and interesting places. Unless you get caught, that part is not so great.
 	
-	You tear open the unmarked envelope and unfold the mission briefing enclosed within: [italic type]Infiltrate MegaCorp, gain access to the data centre, download the database.[roman type]
+	You open the unmarked envelope and unfold the mission briefing enclosed within: [italic type]Infiltrate MegaCorp, gain access to the data centre, download the database.[roman type]
 	
-	So here you are, one week later - standing in the foyer of MegaCorp, under guise as a repairman.";
+	So here you are, standing in the foyer of MegaCorp, disguised as a repairman.";
 		
 Book - Endings
 
