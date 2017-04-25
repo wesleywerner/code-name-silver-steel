@@ -1,1419 +1,703 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0xf46740" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x112bd40"/>
-  <item nodeId="node-0xf46740">
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-42"/>
+  <item nodeId="node-1">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
-
-
-
-A freelance spy is a great job. It pays well and you get to travel to new and interesting places. Unless you get caught, that part is not so great.
-
-You tear open the unmarked envelope and unfold the mission briefing enclosed within: Infiltrate MegaCorp, gain access to the data centre, download the database.
-
-So here you are, one week later - standing in the foyer of MegaCorp, under guise as a repairman.
-
-Code Name Silver Steel
-An Interactive Fiction by Special Agent
-Release 1 / Serial number 170423 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
-
-Foyer
-The spacious foyer of the MegaCorp building carries indistinguishable sounds along the sterile tiled floor and angular furniture, giving the impression of cold detachment.
-
-You are standing by the reception desk in the centre of the room. The raised desk shields the small stature of the person behind it, oblivious to your presence.
-
-To the north is an elevator, and a door beside it. 
-
-(New players should type &quot;help&quot;)
-
-You can see a receptionist here.
-
-&gt;</result>
-    <commentary xml:space="preserve">
-
-
-
-A freelance spy is a great job. It pays well and you get to travel to new and interesting places. Unless you get caught, that part is not so great.
-
-You tear open the unmarked envelope and unfold the mission briefing enclosed within: Infiltrate MegaCorp, gain access to the data centre, download the database.
-
-So here you are, one week later - standing in the foyer of MegaCorp, under guise as a repairman.
-
-Code Name Silver Steel
-An Interactive Fiction by Special Agent
-Release 1 / Serial number 170423 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
-
-Foyer
-The spacious foyer of the MegaCorp building carries indistinguishable sounds along the sterile tiled floor and angular furniture, giving the impression of cold detachment.
-
-You are standing by the reception desk in the centre of the room. The raised desk shields the small stature of the person behind it, oblivious to your presence.
-
-To the north is an elevator, and a door beside it. 
-
-(New players should type &quot;help&quot;)
-
-You can see a receptionist here.
-
-&gt;</commentary>
+    <result xml:space="preserve">A freelance spy is a great job. It pays well and you get to travel to new and interesting places. Unless you get caught, that part is not so great.&#x000A;&#x000A;You open the unmarked envelope and unfold the mission briefing enclosed within: Infiltrate MegaCorp, gain access to the data centre, download the database.&#x000A;&#x000A;So here you are, standing in the foyer of MegaCorp, disguised as a repairman.&#x000A;&#x000A;Code Name Silver Steel&#x000A;An Interactive Fiction by Special Agent&#x000A;Release 1 / Serial number 170425 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Foyer&#x000A;You are in the spacious foyer of the MegaCorp Building. The room gives you the feeling of businesslike detachment.&#x000A;&#x000A;You are standing by the reception desk in the centre of the room, a small receptionist is sitting behind it.&#x000A;&#x000A;To the north is an elevator, and a door beside it. &#x000A;&#x000A;(New players should type "help")&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A freelance spy is a great job. It pays well and you get to travel to new and interesting places. Unless you get caught, that part is not so great.&#x000A;&#x000A;You open the unmarked envelope and unfold the mission briefing enclosed within: Infiltrate MegaCorp, gain access to the data centre, download the database.&#x000A;&#x000A;So here you are, standing in the foyer of MegaCorp, disguised as a repairman.&#x000A;&#x000A;Code Name Silver Steel&#x000A;An Interactive Fiction by Special Agent&#x000A;Release 1 / Serial number 170425 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Foyer&#x000A;You are in the spacious foyer of the MegaCorp Building. The room gives you the feeling of businesslike detachment.&#x000A;&#x000A;You are standing by the reception desk in the centre of the room, a small receptionist is sitting behind it.&#x000A;&#x000A;To the north is an elevator, and a door beside it. &#x000A;&#x000A;(New players should type "help")&#x000A;&#x000A;You can see a receptionist here.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf468c0"/>
-      <child nodeId="node-0x10e2a80"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-43"/>
     </children>
   </item>
-  <item nodeId="node-0xf468c0">
+  <item nodeId="node-2">
     <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:
-  a job card
-  an overall (being worn)
-  a toolbox (closed)
-  a wrist watch (being worn)
-
-&gt;</result>
-    <commentary xml:space="preserve">You are carrying:
-  a job card
-  an overall (being worn)
-  a toolbox (closed)
-  a wrist watch (being worn)
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You are carrying:&#x000A;  a job card&#x000A;  an overall (being worn)&#x000A;  a toolbox (closed)&#x000A;  a wrist watch (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You are carrying:&#x000A;  a job card&#x000A;  an overall (being worn)&#x000A;  a toolbox (closed)&#x000A;  a wrist watch (being worn)&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf46a40"/>
+      <child nodeId="node-3"/>
     </children>
   </item>
-  <item nodeId="node-0xf46a40">
+  <item nodeId="node-3">
     <command xml:space="preserve">x job card</command>
-    <result xml:space="preserve">This is a forged job card that states you are on-site to repair a faulty air conditioning unit. During the past week you gained access to the company intranet, and forged a matching maintenance record on their systems.
-
-&gt;</result>
-    <commentary xml:space="preserve">This is a forged job card that states you are on-site to repair a faulty air conditioning unit. During the past week you gained access to the company intranet, and forged a matching maintenance record on their systems.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">This is a forged job card that states you are on-site to repair a faulty air conditioning unit. During the past week you gained access to the company intranet, and forged a matching maintenance record on their systems.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">This is a forged job card that states you are on-site to repair a faulty air conditioning unit. During the past week you gained access to the company intranet, and forged a matching maintenance record on their systems.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf46bc0"/>
+      <child nodeId="node-4"/>
     </children>
   </item>
-  <item nodeId="node-0xf46bc0">
+  <item nodeId="node-4">
     <command xml:space="preserve">show job card to receptionist</command>
-    <result xml:space="preserve">She takes the job card from you and scrutinizes it against her records.
-&quot;Fine&quot;, she says, handing you a clip-on tag. &quot;Carry this with you at all times. The maintenance door is there&quot;, she points north. &quot;Have a nice day&quot;.
-
-&gt;</result>
-    <commentary xml:space="preserve">She takes the job card from you and scrutinizes it against her records.
-&quot;Fine&quot;, she says, handing you a clip-on tag. &quot;Carry this with you at all times. The maintenance door is there&quot;, she points north. &quot;Have a nice day&quot;.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">She takes the job card from you and scrutinizes it against her records.&#x000A;"Fine", she says, handing you a clip-on tag. "Carry this with you at all times. The maintenance door is there", she points north. "Have a nice day".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">She takes the job card from you and scrutinizes it against her records.&#x000A;"Fine", she says, handing you a clip-on tag. "Carry this with you at all times. The maintenance door is there", she points north. "Have a nice day".&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf46d40"/>
+      <child nodeId="node-5"/>
     </children>
   </item>
-  <item nodeId="node-0xf46d40">
+  <item nodeId="node-5">
     <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening the service entrance)
-The receptionist eyes you from behind her fortress-desk as you open the door.
-
-Maintenance Quarters
-The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.
-
-There is all manner of piping running along the roof. There is a panel in the north wall.
-
-&gt;</result>
-    <commentary xml:space="preserve">(first opening the service entrance)
-The receptionist eyes you from behind her fortress-desk as you open the door.
-
-Maintenance Quarters
-The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.
-
-There is all manner of piping running along the roof. There is a panel in the north wall.
-
-&gt;</commentary>
-    <played>NO</played>
-    <changed>NO</changed>
+    <result xml:space="preserve">(first opening the service entrance)&#x000A;The receptionist eyes you from behind her fortress-desk as you open the door.&#x000A;&#x000A;Maintenance Quarters&#x000A;A small room with grey walls that drain the feng shui out of the carefully crafted maintenance quarters.&#x000A;&#x000A;There is all manner of piping running along the roof. There is a panel in the north wall.&#x000A;&#x000A;You put the toolbox down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(first opening the service entrance)&#x000A;The receptionist eyes you from behind her fortress-desk as you open the door.&#x000A;&#x000A;Maintenance Quarters&#x000A;A small room with grey walls that drain the feng shui out of the carefully crafted maintenance quarters.&#x000A;&#x000A;There is all manner of piping running along the roof. There is a panel in the north wall.&#x000A;&#x000A;You put the toolbox down.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf46ec0"/>
+      <child nodeId="node-6"/>
     </children>
   </item>
-  <item nodeId="node-0xf46ec0">
+  <item nodeId="node-6">
     <command xml:space="preserve">drop toolbox</command>
-    <result xml:space="preserve">Dropped.
-
-&gt;</result>
-    <commentary xml:space="preserve">Dropped.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">The toolbox is already here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The toolbox is already here.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107f100"/>
+      <child nodeId="node-7"/>
     </children>
   </item>
-  <item nodeId="node-0x107f100">
+  <item nodeId="node-7">
     <command xml:space="preserve">open toolbox</command>
-    <result xml:space="preserve">You open the toolbox, revealing a screwdriver, a data disc and a suit.
-
-&gt;</result>
-    <commentary xml:space="preserve">You open the toolbox, revealing a screwdriver, a data disc and a suit.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You open the toolbox, revealing a screwdriver, a data disk and a suit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You open the toolbox, revealing a screwdriver, a data disk and a suit.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107f280"/>
+      <child nodeId="node-8"/>
     </children>
   </item>
-  <item nodeId="node-0x107f280">
+  <item nodeId="node-8">
     <command xml:space="preserve">take all from toolbox</command>
-    <result xml:space="preserve">screwdriver: Taken.
-data disc: Taken.
-suit: Taken.
-
-&gt;</result>
-    <commentary xml:space="preserve">screwdriver: Taken.
-data disc: Taken.
-suit: Taken.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">screwdriver: Taken.&#x000A;data disk: Taken.&#x000A;suit: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">screwdriver: Taken.&#x000A;data disk: Taken.&#x000A;suit: Taken.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107f400"/>
+      <child nodeId="node-9"/>
     </children>
   </item>
-  <item nodeId="node-0x107f400">
+  <item nodeId="node-9">
     <command xml:space="preserve">wear the suit</command>
-    <result xml:space="preserve">You remove the overall and drop it on the floor.
-
-You put on the suit.
-
-&gt;</result>
-    <commentary xml:space="preserve">You remove the overall and drop it on the floor.
-
-You put on the suit.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You remove the overall and drop it on the floor.&#x000A;&#x000A;You put on the suit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You remove the overall and drop it on the floor.&#x000A;&#x000A;You put on the suit.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107f580"/>
+      <child nodeId="node-10"/>
     </children>
   </item>
-  <item nodeId="node-0x107f580">
+  <item nodeId="node-10">
     <command xml:space="preserve">x panel</command>
-    <result xml:space="preserve">A gray steel panel. This one seems to cover a tunnel.
-
-&gt;</result>
-    <commentary xml:space="preserve">A gray steel panel. This one seems to cover a tunnel.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">A gray steel panel. This one seems to cover a tunnel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A gray steel panel. This one seems to cover a tunnel.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107f700"/>
+      <child nodeId="node-11"/>
     </children>
   </item>
-  <item nodeId="node-0x107f700">
+  <item nodeId="node-11">
     <command xml:space="preserve">open panel</command>
-    <result xml:space="preserve">The panel is screwed shut.
-
-&gt;</result>
-    <commentary xml:space="preserve">The panel is screwed shut.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">The panel is screwed shut.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The panel is screwed shut.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107f880"/>
+      <child nodeId="node-12"/>
     </children>
   </item>
-  <item nodeId="node-0x107f880">
+  <item nodeId="node-12">
     <command xml:space="preserve">turn screws</command>
-    <result xml:space="preserve">You loosen the screws using the screwdriver. The panel swings open.
-
-&gt;</result>
-    <commentary xml:space="preserve">You loosen the screws using the screwdriver. The panel swings open.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You loosen the screws using the screwdriver. The panel swings open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You loosen the screws using the screwdriver. The panel swings open.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107fa00"/>
+      <child nodeId="node-13"/>
     </children>
   </item>
-  <item nodeId="node-0x107fa00">
+  <item nodeId="node-13">
     <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.
-
-Administration
-You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-A cubicle is nearby. There is a doorway to the west, and an elevator to the north.
-
-You can see a copy machine here.
-
-&gt;</result>
-    <commentary xml:space="preserve">Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.
-
-Administration
-You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-A cubicle is nearby. There is a doorway to the west, and an elevator to the north.
-
-You can see a copy machine here.
-
-&gt;</commentary>
-    <played>NO</played>
-    <changed>NO</changed>
+    <result xml:space="preserve">Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.&#x000A;&#x000A;Administration&#x000A;The large room is divided into a dozen cubicles, and it has the dull hum of a funeral parlour.&#x000A;&#x000A;A cubicle is nearby. There is a doorway to the west, and an elevator to the north.&#x000A;&#x000A;You can see a copy machine here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.&#x000A;&#x000A;Administration&#x000A;The large room is divided into a dozen cubicles, and it has the dull hum of a funeral parlour.&#x000A;&#x000A;A cubicle is nearby. There is a doorway to the west, and an elevator to the north.&#x000A;&#x000A;You can see a copy machine here.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107fb80"/>
+      <child nodeId="node-14"/>
     </children>
   </item>
-  <item nodeId="node-0x107fb80">
+  <item nodeId="node-14">
     <command xml:space="preserve">x cubicle</command>
-    <result xml:space="preserve">It is the closest cubicle to the copy machine.
-
-In the cubicle are a security pass and an elderly man.
-
-&gt;</result>
-    <commentary xml:space="preserve">It is the closest cubicle to the copy machine.
-
-In the cubicle are a security pass and an elderly man.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">It is the closest cubicle to the copy machine.&#x000A;&#x000A;In the cubicle are a security pass and an elderly man.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">It is the closest cubicle to the copy machine.&#x000A;&#x000A;In the cubicle are a security pass and an elderly man.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107fd00"/>
+      <child nodeId="node-15"/>
     </children>
   </item>
-  <item nodeId="node-0x107fd00">
+  <item nodeId="node-15">
     <command xml:space="preserve">x elderly man</command>
-    <result xml:space="preserve">He is an elderly man with receding brown hair. He seems preoccupied with his paperwork.
-
-&gt;</result>
-    <commentary xml:space="preserve">He is an elderly man with receding brown hair. He seems preoccupied with his paperwork.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">He is an elderly man with receding brown hair. He seems preoccupied with his paperwork.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">He is an elderly man with receding brown hair. He seems preoccupied with his paperwork.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x107fe80"/>
+      <child nodeId="node-16"/>
     </children>
   </item>
-  <item nodeId="node-0x107fe80">
+  <item nodeId="node-16">
     <command xml:space="preserve">x security pass</command>
-    <result xml:space="preserve">A security pass attached to a lanyard. The print on the card reads &quot;elevator access&quot;.
-
-&gt;</result>
-    <commentary xml:space="preserve">A security pass attached to a lanyard. The print on the card reads &quot;elevator access&quot;.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">A security pass attached to a lanyard. The print on the card reads "elevator access".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A security pass attached to a lanyard. The print on the card reads "elevator access".&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109c120"/>
+      <child nodeId="node-17"/>
     </children>
   </item>
-  <item nodeId="node-0x109c120">
+  <item nodeId="node-17">
     <command xml:space="preserve">take security pass</command>
-    <result xml:space="preserve">It is out of reach. You need to enter the cubicle.
-
-&gt;</result>
-    <commentary xml:space="preserve">It is out of reach. You need to enter the cubicle.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">It is out of reach. You need to enter the cubicle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">It is out of reach. You need to enter the cubicle.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109c2a0"/>
+      <child nodeId="node-18"/>
     </children>
   </item>
-  <item nodeId="node-0x109c2a0">
+  <item nodeId="node-18">
     <command xml:space="preserve">enter cubicle</command>
-    <result xml:space="preserve">Not while the cubicle is occupied.
-
-&gt;</result>
-    <commentary xml:space="preserve">Not while the cubicle is occupied.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">Not while the cubicle is occupied.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Not while the cubicle is occupied.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109c420"/>
+      <child nodeId="node-19"/>
     </children>
   </item>
-  <item nodeId="node-0x109c420">
+  <item nodeId="node-19">
     <command xml:space="preserve">x copy machine</command>
-    <result xml:space="preserve">It is a chunky piece of machinery with many tiny buttons. You notice stains on top of the machine.
-
-&gt;</result>
-    <commentary xml:space="preserve">It is a chunky piece of machinery with many tiny buttons. You notice stains on top of the machine.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">It is a chunky piece of machinery with many tiny buttons. You notice stains on top of the machine.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">It is a chunky piece of machinery with many tiny buttons. You notice stains on top of the machine.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109c5a0"/>
+      <child nodeId="node-20"/>
     </children>
   </item>
-  <item nodeId="node-0x109c5a0">
+  <item nodeId="node-20">
     <command xml:space="preserve">x stains</command>
-    <result xml:space="preserve">They are coffee ring stains, their location suggests it is where a cup is prone to spill. Somebody has a bad habit of putting their cups on the copy machine.
-
-&gt;</result>
-    <commentary xml:space="preserve">They are coffee ring stains, their location suggests it is where a cup is prone to spill. Somebody has a bad habit of putting their cups on the copy machine.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">They are coffee ring stains, their location suggests it is where a cup is prone to spill. Somebody has a bad habit of putting their cups on the copy machine.&#x000A;&#x000A;The man exits his cubicle and walks to the copy machine. It dutifully "whirrs" and "schliks" out copies, the man grabs the pages and returns to his cubicle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">They are coffee ring stains, their location suggests it is where a cup is prone to spill. Somebody has a bad habit of putting their cups on the copy machine.&#x000A;&#x000A;The man exits his cubicle and walks to the copy machine. It dutifully "whirrs" and "schliks" out copies, the man grabs the pages and returns to his cubicle.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109c720"/>
+      <child nodeId="node-21"/>
     </children>
   </item>
-  <item nodeId="node-0x109c720">
+  <item nodeId="node-21">
     <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">
-Breakroom
-You are in a bare room without furniture. You guess MegaCorp doesn&apos;t want relaxed employees.
-
-There is a pot of coffee on a counter here.
-
-You can also see a coffee mug here.
-
-&gt;</result>
-    <commentary xml:space="preserve">
-Breakroom
-You are in a bare room without furniture. You guess MegaCorp doesn&apos;t want relaxed employees.
-
-There is a pot of coffee on a counter here.
-
-You can also see a coffee mug here.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">Breakroom&#x000A;This room has no furniture. You guess MegaCorp doesn't want relaxed employees.&#x000A;&#x000A;There is a pot of coffee on a counter here. A page is fixed to the side of the counter.&#x000A;&#x000A;You can also see a coffee mug here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Breakroom&#x000A;This room has no furniture. You guess MegaCorp doesn't want relaxed employees.&#x000A;&#x000A;There is a pot of coffee on a counter here. A page is fixed to the side of the counter.&#x000A;&#x000A;You can also see a coffee mug here.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109c8a0"/>
+      <child nodeId="node-22"/>
     </children>
   </item>
-  <item nodeId="node-0x109c8a0">
+  <item nodeId="node-22">
     <command xml:space="preserve">take mug</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <commentary xml:space="preserve">Taken.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You fill the mug with hot coffee.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You fill the mug with hot coffee.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109ca20"/>
+      <child nodeId="node-23"/>
     </children>
   </item>
-  <item nodeId="node-0x109ca20">
+  <item nodeId="node-23">
     <command xml:space="preserve">x pot</command>
-    <result xml:space="preserve">A pot of hot coffee.
-
-&gt;</result>
-    <commentary xml:space="preserve">A pot of hot coffee.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">A pot of hot coffee.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A pot of hot coffee.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109cba0"/>
+      <child nodeId="node-24"/>
     </children>
   </item>
-  <item nodeId="node-0x109cba0">
+  <item nodeId="node-24">
     <command xml:space="preserve">put coffee in mug</command>
-    <result xml:space="preserve">(the coffee pot in the coffee mug)
-You fill the mug with hot coffee.
-
-&gt;</result>
-    <commentary xml:space="preserve">(the coffee pot in the coffee mug)
-You fill the mug with hot coffee.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">(the coffee pot in the coffee mug)&#x000A;Your mug overfloweth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(the coffee pot in the coffee mug)&#x000A;Your mug overfloweth.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109cd20"/>
+      <child nodeId="node-25"/>
     </children>
   </item>
-  <item nodeId="node-0x109cd20">
+  <item nodeId="node-25">
     <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">
-Administration
-You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-A cubicle is nearby. The Breakroom is to the west, and an elevator to the north.
-
-You can see a copy machine here.
-
-&gt;</result>
-    <commentary xml:space="preserve">
-Administration
-You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-A cubicle is nearby. The Breakroom is to the west, and an elevator to the north.
-
-You can see a copy machine here.
-
-&gt;</commentary>
-    <played>NO</played>
-    <changed>NO</changed>
+    <result xml:space="preserve">Administration&#x000A;The large room is divided into a dozen cubicles, and it has the dull hum of a funeral parlour.&#x000A;&#x000A;A cubicle is nearby. The Breakroom is to the west, and an elevator to the north.&#x000A;&#x000A;You can see a copy machine here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Administration&#x000A;The large room is divided into a dozen cubicles, and it has the dull hum of a funeral parlour.&#x000A;&#x000A;A cubicle is nearby. The Breakroom is to the west, and an elevator to the north.&#x000A;&#x000A;You can see a copy machine here.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x109cea0"/>
+      <child nodeId="node-26"/>
     </children>
   </item>
-  <item nodeId="node-0x109cea0">
+  <item nodeId="node-26">
     <command xml:space="preserve">put mug on copy machine</command>
-    <result xml:space="preserve">You make sure nobody is watching, and quietly place the mug on the side of the copy machine.
-
-&gt;</result>
-    <commentary xml:space="preserve">You make sure nobody is watching, and quietly place the mug on the side of the copy machine.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You make sure nobody is watching, and quietly place the mug on the side of the copy machine.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You make sure nobody is watching, and quietly place the mug on the side of the copy machine.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6180"/>
+      <child nodeId="node-27"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6180">
+  <item nodeId="node-27">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.
-
-The elderly man gets up from his cubicle and walks to the copy machine. He shuffles his papers and pushes the buttons.
-
-&gt;</result>
-    <commentary xml:space="preserve">Time passes.
-
-The elderly man gets up from his cubicle and walks to the copy machine. He shuffles his papers and pushes the buttons.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The elderly man gets up from his cubicle and walks to the copy machine. He shuffles his papers and pushes the buttons.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Time passes.&#x000A;&#x000A;The elderly man gets up from his cubicle and walks to the copy machine. He shuffles his papers and pushes the buttons.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6300"/>
+      <child nodeId="node-28"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6300">
+  <item nodeId="node-28">
     <command xml:space="preserve">enter cubicle</command>
-    <result xml:space="preserve">You get into the cubicle.
-
-In the cubicle you can see a security pass.
-
-Clang!
-&quot;What the hell!&quot; the man curses, trying to save his coffee soaked pages.
-
-&gt;</result>
-    <commentary xml:space="preserve">You get into the cubicle.
-
-In the cubicle you can see a security pass.
-
-Clang!
-&quot;What the hell!&quot; the man curses, trying to save his coffee soaked pages.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You get into the cubicle.&#x000A;&#x000A;In the cubicle you can see a security pass.&#x000A;&#x000A;Clang!&#x000A;"What the hell!" the man curses, trying to save his coffee soaked pages.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You get into the cubicle.&#x000A;&#x000A;In the cubicle you can see a security pass.&#x000A;&#x000A;Clang!&#x000A;"What the hell!" the man curses, trying to save his coffee soaked pages.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6480"/>
+      <child nodeId="node-29"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6480">
+  <item nodeId="node-29">
     <command xml:space="preserve">take security pass</command>
-    <result xml:space="preserve">Taken.
-
-&quot;Rats!&quot; the man mumbles.
-
-&gt;</result>
-    <commentary xml:space="preserve">Taken.
-
-&quot;Rats!&quot; the man mumbles.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;"Darn it", the man curses.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;"Darn it", the man curses.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6600"/>
+      <child nodeId="node-30"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6600">
+  <item nodeId="node-30">
     <command xml:space="preserve">exit</command>
-    <result xml:space="preserve">You get out of the cubicle.
-
-Administration
-You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-A cubicle is nearby. The Breakroom is to the west, and an elevator to the north.
-
-You can see an elderly man and a copy machine (on which is a coffee mug) here.
-
-The man shakes his wet pages angrily.
-
-&gt;</result>
-    <commentary xml:space="preserve">You get out of the cubicle.
-
-Administration
-You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-A cubicle is nearby. The Breakroom is to the west, and an elevator to the north.
-
-You can see an elderly man and a copy machine (on which is a coffee mug) here.
-
-The man shakes his wet pages angrily.
-
-&gt;</commentary>
-    <played>NO</played>
-    <changed>NO</changed>
+    <result xml:space="preserve">You get out of the cubicle.&#x000A;&#x000A;Administration&#x000A;The large room is divided into a dozen cubicles, and it has the dull hum of a funeral parlour.&#x000A;&#x000A;A cubicle is nearby. The Breakroom is to the west, and an elevator to the north.&#x000A;&#x000A;You can see an elderly man and a copy machine (on which is a coffee mug) here.&#x000A;&#x000A;"Rats!" the man mumbles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You get out of the cubicle.&#x000A;&#x000A;Administration&#x000A;The large room is divided into a dozen cubicles, and it has the dull hum of a funeral parlour.&#x000A;&#x000A;A cubicle is nearby. The Breakroom is to the west, and an elevator to the north.&#x000A;&#x000A;You can see an elderly man and a copy machine (on which is a coffee mug) here.&#x000A;&#x000A;"Rats!" the man mumbles.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6780"/>
+      <child nodeId="node-31"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6780">
+  <item nodeId="node-31">
     <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening the elevator)
-It seems to be locked.
-
-&quot;Rats!&quot; the man mumbles.
-
-&gt;</result>
-    <commentary xml:space="preserve">(first opening the elevator)
-It seems to be locked.
-
-&quot;Rats!&quot; the man mumbles.
-
-&gt;</commentary>
-    <played>NO</played>
-    <changed>NO</changed>
+    <result xml:space="preserve">(first opening the elevator)&#x000A;You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...&#x000A;&#x000A;Data Centre&#x000A;Rows upon rows of servers fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, used to access various systems in the building.&#x000A;&#x000A;A technician is here, working on a terminal.&#x000A;&#x000A;You can also see a fire control terminal and a database terminal here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(first opening the elevator)&#x000A;You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...&#x000A;&#x000A;Data Centre&#x000A;Rows upon rows of servers fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, used to access various systems in the building.&#x000A;&#x000A;A technician is here, working on a terminal.&#x000A;&#x000A;You can also see a fire control terminal and a database terminal here.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6900"/>
+      <child nodeId="node-33"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6900">
-    <command xml:space="preserve">unlock elevator with security pass</command>
-    <result xml:space="preserve">You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...
-
-Data Centre
-Rows upon rows of server racks fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, these are used to access various systems in the building.
-
-A technician is here, working on a terminal.
-
-You can also see a fire control terminal and a database terminal here.
-
-&gt;</result>
-    <commentary xml:space="preserve">You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...
-
-Data Centre
-Rows upon rows of server racks fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, these are used to access various systems in the building.
-
-A technician is here, working on a terminal.
-
-You can also see a fire control terminal and a database terminal here.
-
-&gt;</commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x10c6a80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x10c6a80">
+  <item nodeId="node-33">
     <command xml:space="preserve">x fire control terminal</command>
-    <result xml:space="preserve">This terminal controls the fire detection and sprinkler systems of the building. You can log on terminal to use it.
-
-&gt;</result>
-    <commentary xml:space="preserve">This terminal controls the fire detection and sprinkler systems of the building. You can log on terminal to use it.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">This terminal controls the fire detection and sprinkler systems of the building. You can log on terminal to use it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">This terminal controls the fire detection and sprinkler systems of the building. You can log on terminal to use it.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6c00"/>
+      <child nodeId="node-34"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6c00">
+  <item nodeId="node-34">
     <command xml:space="preserve">log on terminal</command>
-    <result xml:space="preserve">Which do you mean, the fire control terminal or the database terminal?
-
-&gt;</result>
-    <commentary xml:space="preserve">Which do you mean, the fire control terminal or the database terminal?
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">Which do you mean, the fire control terminal or the database terminal?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Which do you mean, the fire control terminal or the database terminal?&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6d80"/>
+      <child nodeId="node-35"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6d80">
+  <item nodeId="node-35">
     <command xml:space="preserve">fire</command>
-    <result xml:space="preserve">MegaCorp fire and safety control - Status: no fires - Activating fire drill
-
-A siren rings out loudly, accompanied by a flashing red light in the ceiling.
-The technician runs through the rows of servers, out of sight.
-
-A siren blares.
-
-&gt;</result>
-    <commentary xml:space="preserve">MegaCorp fire and safety control - Status: no fires - Activating fire drill
-
-A siren rings out loudly, accompanied by a flashing red light in the ceiling.
-The technician runs through the rows of servers, out of sight.
-
-A siren blares.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">MegaCorp fire and safety control - Status: no fires - Activating fire drill&#x000A;&#x000A;A siren rings out loudly, accompanied by a flashing red light in the ceiling.&#x000A;The technician runs through the rows of servers, out of sight.&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">MegaCorp fire and safety control - Status: no fires - Activating fire drill&#x000A;&#x000A;A siren rings out loudly, accompanied by a flashing red light in the ceiling.&#x000A;The technician runs through the rows of servers, out of sight.&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10c6f00"/>
+      <child nodeId="node-36"/>
     </children>
   </item>
-  <item nodeId="node-0x10c6f00">
+  <item nodeId="node-36">
     <command xml:space="preserve">x database terminal</command>
-    <result xml:space="preserve">This terminal controls the information database. You notice a drive bay attached to it. You can log on terminal to use it.
-
-A red light flashes in your eyes.
-
-&gt;</result>
-    <commentary xml:space="preserve">This terminal controls the information database. You notice a drive bay attached to it. You can log on terminal to use it.
-
-A red light flashes in your eyes.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">This terminal controls the information database. You notice a drive bay attached to it. You can log on terminal to use it.&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">This terminal controls the information database. You notice a drive bay attached to it. You can log on terminal to use it.&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2180"/>
+      <child nodeId="node-37"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2180">
+  <item nodeId="node-37">
     <command xml:space="preserve">x drive bay</command>
-    <result xml:space="preserve">A peripheral that is connected to the database terminal, used to copy files on and off the server. It has a slot to insert a data disc.
-
-A red light flashes in your eyes.
-
-&gt;</result>
-    <commentary xml:space="preserve">A peripheral that is connected to the database terminal, used to copy files on and off the server. It has a slot to insert a data disc.
-
-A red light flashes in your eyes.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">A peripheral that is connected to the database terminal, used to copy files on and off the server. It has a slot to insert a data disk.&#x000A;&#x000A;A siren blares.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A peripheral that is connected to the database terminal, used to copy files on and off the server. It has a slot to insert a data disk.&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2300"/>
+      <child nodeId="node-38"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2300">
+  <item nodeId="node-38">
     <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:
-  a security pass
-  a suit (being worn)
-  a data disc
-  a screwdriver
-  a maintenance tag
-  a wrist watch (being worn)
-
-A red light flashes in your eyes.
-
-&gt;</result>
-    <commentary xml:space="preserve">You are carrying:
-  a security pass
-  a suit (being worn)
-  a data disc
-  a screwdriver
-  a maintenance tag
-  a wrist watch (being worn)
-
-A red light flashes in your eyes.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You are carrying:&#x000A;  a security pass&#x000A;  a suit (being worn)&#x000A;  a data disk&#x000A;  a screwdriver&#x000A;  a maintenance tag&#x000A;  a wrist watch (being worn)&#x000A;&#x000A;A siren blares.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You are carrying:&#x000A;  a security pass&#x000A;  a suit (being worn)&#x000A;  a data disk&#x000A;  a screwdriver&#x000A;  a maintenance tag&#x000A;  a wrist watch (being worn)&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2480"/>
+      <child nodeId="node-39"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2480">
+  <item nodeId="node-39">
     <command xml:space="preserve">put data disc in drive bay</command>
-    <result xml:space="preserve">You put the data disc into the drive bay.
-
-A red light flashes in your eyes.
-
-&gt;</result>
-    <commentary xml:space="preserve">You put the data disc into the drive bay.
-
-A red light flashes in your eyes.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You put the data disk into the drive bay.&#x000A;&#x000A;A siren blares.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You put the data disk into the drive bay.&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2600"/>
+      <child nodeId="node-40"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2600">
+  <item nodeId="node-40">
     <command xml:space="preserve">log on terminal</command>
-    <result xml:space="preserve">Which do you mean, the fire control terminal or the database terminal?
-
-&gt;</result>
-    <commentary xml:space="preserve">Which do you mean, the fire control terminal or the database terminal?
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">Which do you mean, the fire control terminal or the database terminal?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Which do you mean, the fire control terminal or the database terminal?&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2780"/>
+      <child nodeId="node-41"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2780">
+  <item nodeId="node-41">
     <command xml:space="preserve">database</command>
-    <result xml:space="preserve">You download the files to the data disc in the drive bay, you have what you came for. Now to advance your own agenda: you upload a trojan horse into the server, and log off.
-
-A red light flashes in your eyes.
-
-&gt;</result>
-    <commentary xml:space="preserve">You download the files to the data disc in the drive bay, you have what you came for. Now to advance your own agenda: you upload a trojan horse into the server, and log off.
-
-A red light flashes in your eyes.
-
-&gt;</commentary>
-    <played>NO</played>
+    <result xml:space="preserve">You download the files to the data disk in the drive bay, you have what you came for. Now to advance your own agenda: you upload a trojan horse into the server, and log off.&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You download the files to the data disk in the drive bay, you have what you came for. Now to advance your own agenda: you upload a trojan horse into the server, and log off.&#x000A;&#x000A;A red light flashes in your eyes.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2900"/>
+      <child nodeId="node-42"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2900">
+  <item nodeId="node-42">
     <command xml:space="preserve">take data disc</command>
-    <result xml:space="preserve">You grab the data disc and make your escape by way of elevator to the roof. You reverse you suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.
-
-Your mission was a success!
-
-
-
-    *** The End ***
-
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <commentary xml:space="preserve">You grab the data disc and make your escape by way of elevator to the roof. You reverse you suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.
-
-Your mission was a success!
-
-
-
-    *** The End ***
-
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </commentary>
-    <played>NO</played>
-    <changed>NO</changed>
+    <result xml:space="preserve">You grab the data disk and make your escape up the stairs to the roof. You reverse your suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.&#x000A;&#x000A;Your mission was a success!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You grab the data disk and make your escape up the stairs to the roof. You reverse your suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.&#x000A;&#x000A;Your mission was a success!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">*** Walkthrough</annotation>
   </item>
-  <item nodeId="node-0x10e2a80">
+  <item nodeId="node-43">
     <command xml:space="preserve">attack receptionist</command>
-    <result xml:space="preserve">Stupidly, you aim your spy watch at the receptionist, a small dart shoots into her thigh and she collapses. Seconds later armed guards shove you against the wall. You are taken deep into the confines of the building, never to be seen again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <commentary xml:space="preserve">Stupidly, you aim your spy watch at the receptionist, a small dart shoots into her thigh and she collapses. Seconds later armed guards shove you against the wall. You are taken deep into the confines of the building, never to be seen again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </commentary>
+    <result xml:space="preserve">Stupidly, you aim your spy watch at the receptionist, a small dart shoots into her thigh and she collapses. Seconds later armed guards shove you against the wall. You are taken deep into the confines of the building, never to be seen again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </result>
+    <commentary xml:space="preserve">Stupidly, you aim your spy watch at the receptionist, a small dart shoots into her thigh and she collapses. Seconds later armed guards shove you against the wall. You are taken deep into the confines of the building, never to be seen again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2c00"/>
+      <child nodeId="node-44"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2c00">
+  <item nodeId="node-44">
     <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Foyer
-[Previous turn undone.]
-
-&gt;</result>
-    <commentary xml:space="preserve">Foyer
-[Previous turn undone.]
-
-&gt;</commentary>
+    <result xml:space="preserve">Foyer&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Foyer&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2d80"/>
+      <child nodeId="node-45"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2d80">
+  <item nodeId="node-45">
     <command xml:space="preserve">kiss receptionist</command>
-    <result xml:space="preserve">The receptionist pushes you away and yells for &quot;security!&quot; In a matter of seconds you are restrained, searched, and led away to a dark cell deep under the building, never to be seen again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <commentary xml:space="preserve">The receptionist pushes you away and yells for &quot;security!&quot; In a matter of seconds you are restrained, searched, and led away to a dark cell deep under the building, never to be seen again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </commentary>
+    <result xml:space="preserve">The receptionist pushes you away and yells for "security!" In a matter of seconds you are restrained, searched, and led away to a dark cell deep under the building, never to be seen again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </result>
+    <commentary xml:space="preserve">The receptionist pushes you away and yells for "security!" In a matter of seconds you are restrained, searched, and led away to a dark cell deep under the building, never to be seen again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x10e2f00"/>
+      <child nodeId="node-46"/>
     </children>
   </item>
-  <item nodeId="node-0x10e2f00">
+  <item nodeId="node-46">
     <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Foyer
-[Previous turn undone.]
-
-&gt;</result>
-    <commentary xml:space="preserve">Foyer
-[Previous turn undone.]
-
-&gt;</commentary>
+    <result xml:space="preserve">Foyer&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Foyer&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110f110"/>
+      <child nodeId="node-47"/>
     </children>
   </item>
-  <item nodeId="node-0x110f110">
+  <item nodeId="node-47">
     <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">&quot;Sir!&quot;, the receptionist calls after you, &quot;You can&apos;t enter there without clearance.&quot; (You could ignore her warning and go ahead, if you dare).
-
-&gt;</result>
-    <commentary xml:space="preserve">&quot;Sir!&quot;, the receptionist calls after you, &quot;You can&apos;t enter there without clearance.&quot; (You could ignore her warning and go ahead, if you dare).
-
-&gt;</commentary>
+    <result xml:space="preserve">"Sir!", the receptionist calls after you, "You can't enter there without clearance." (You could ignore her warning and go ahead, if you dare).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">"Sir!", the receptionist calls after you, "You can't enter there without clearance." (You could ignore her warning and go ahead, if you dare).&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110f290"/>
+      <child nodeId="node-48"/>
     </children>
   </item>
-  <item nodeId="node-0x110f290">
+  <item nodeId="node-48">
     <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You ignore the receptionist&apos;s warning and enter the doorway, she raises an alarm and within seconds you are surrounded by armed guards. You are promptly led away deep into the confines of the the building, never to be heard from again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <commentary xml:space="preserve">You ignore the receptionist&apos;s warning and enter the doorway, she raises an alarm and within seconds you are surrounded by armed guards. You are promptly led away deep into the confines of the the building, never to be heard from again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </commentary>
+    <result xml:space="preserve">You ignore the receptionist's warning and enter the doorway, she raises an alarm and within seconds you are surrounded by armed guards. You are promptly led away deep into the confines of the the building, never to be heard from again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </result>
+    <commentary xml:space="preserve">You ignore the receptionist's warning and enter the doorway, she raises an alarm and within seconds you are surrounded by armed guards. You are promptly led away deep into the confines of the the building, never to be heard from again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110f410"/>
+      <child nodeId="node-49"/>
     </children>
   </item>
-  <item nodeId="node-0x110f410">
+  <item nodeId="node-49">
     <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Foyer
-[Previous turn undone.]
-
-&gt;</result>
-    <commentary xml:space="preserve">Foyer
-[Previous turn undone.]
-
-&gt;</commentary>
+    <result xml:space="preserve">Foyer&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Foyer&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110f590"/>
+      <child nodeId="node-50"/>
     </children>
   </item>
-  <item nodeId="node-0x110f590">
+  <item nodeId="node-50">
     <command xml:space="preserve">give job card to receptionist</command>
-    <result xml:space="preserve">She takes the job card from you and scrutinizes it against her records.
-&quot;Fine&quot;, she says, handing you a clip-on tag. &quot;Carry this with you at all times. The maintenance door is there&quot;, she points north. &quot;Have a nice day&quot;.
-
-&gt;</result>
-    <commentary xml:space="preserve">She takes the job card from you and scrutinizes it against her records.
-&quot;Fine&quot;, she says, handing you a clip-on tag. &quot;Carry this with you at all times. The maintenance door is there&quot;, she points north. &quot;Have a nice day&quot;.
-
-&gt;</commentary>
+    <result xml:space="preserve">She takes the job card from you and scrutinizes it against her records.&#x000A;"Fine", she says, handing you a clip-on tag. "Carry this with you at all times. The maintenance door is there", she points north. "Have a nice day".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">She takes the job card from you and scrutinizes it against her records.&#x000A;"Fine", she says, handing you a clip-on tag. "Carry this with you at all times. The maintenance door is there", she points north. "Have a nice day".&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110f710"/>
+      <child nodeId="node-51"/>
     </children>
   </item>
-  <item nodeId="node-0x110f710">
+  <item nodeId="node-51">
     <command xml:space="preserve">go n</command>
-    <result xml:space="preserve">(first opening the service entrance)
-The receptionist eyes you from behind her fortress-desk as you open the door.
-
-Maintenance Quarters
-The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.
-
-There is all manner of piping running along the roof. There is a panel in the north wall.
-
-&gt;</result>
-    <commentary xml:space="preserve">(first opening the service entrance)
-The receptionist eyes you from behind her fortress-desk as you open the door.
-
-Maintenance Quarters
-The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.
-
-There is all manner of piping running along the roof. There is a panel in the north wall.
-
-&gt;</commentary>
+    <result xml:space="preserve">(first opening the service entrance)&#x000A;The receptionist eyes you from behind her fortress-desk as you open the door.&#x000A;&#x000A;Maintenance Quarters&#x000A;The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.&#x000A;&#x000A;There is all manner of piping running along the roof. There is a panel in the north wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(first opening the service entrance)&#x000A;The receptionist eyes you from behind her fortress-desk as you open the door.&#x000A;&#x000A;Maintenance Quarters&#x000A;The room is well lit, however the grey plastered walls seem to drain the feng shui out of the carefully crafted maintenance quarters.&#x000A;&#x000A;There is all manner of piping running along the roof. There is a panel in the north wall.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110f890"/>
+      <child nodeId="node-52"/>
     </children>
   </item>
-  <item nodeId="node-0x110f890">
+  <item nodeId="node-52">
     <command xml:space="preserve">remove overall</command>
-    <result xml:space="preserve">You take off the overall.
-
-&gt;</result>
-    <commentary xml:space="preserve">You take off the overall.
-
-&gt;</commentary>
+    <result xml:space="preserve">You take off the overall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You take off the overall.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110fa10"/>
+      <child nodeId="node-53"/>
     </children>
   </item>
-  <item nodeId="node-0x110fa10">
+  <item nodeId="node-53">
     <command xml:space="preserve">go s</command>
-    <result xml:space="preserve">You neglectfully walk into the Foyer without the repairman disguise. Not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <commentary xml:space="preserve">You neglectfully walk into the Foyer without the repairman disguise. Not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </commentary>
+    <result xml:space="preserve">You neglectfully walk into the Foyer without the repairman disguise. Not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </result>
+    <commentary xml:space="preserve">You neglectfully walk into the Foyer without the repairman disguise. Not an unusual act in itself, except that the receptionist recognizes you and hastily calls for security. You are escorted deep into the confines of the building, never to be heard from again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110fb90"/>
+      <child nodeId="node-54"/>
     </children>
   </item>
-  <item nodeId="node-0x110fb90">
+  <item nodeId="node-54">
     <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Maintenance Quarters
-[Previous turn undone.]
-
-&gt;</result>
-    <commentary xml:space="preserve">Maintenance Quarters
-[Previous turn undone.]
-
-&gt;</commentary>
+    <result xml:space="preserve">Maintenance Quarters&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Maintenance Quarters&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110fd10"/>
+      <child nodeId="node-55"/>
     </children>
   </item>
-  <item nodeId="node-0x110fd10">
+  <item nodeId="node-55">
     <command xml:space="preserve">drop toolbox</command>
-    <result xml:space="preserve">Dropped.
-
-&gt;</result>
-    <commentary xml:space="preserve">Dropped.
-
-&gt;</commentary>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x110fe90"/>
+      <child nodeId="node-56"/>
     </children>
   </item>
-  <item nodeId="node-0x110fe90">
+  <item nodeId="node-56">
     <command xml:space="preserve">open toolbox</command>
-    <result xml:space="preserve">You open the toolbox, revealing a screwdriver, a data disc and a suit.
-
-&gt;</result>
-    <commentary xml:space="preserve">You open the toolbox, revealing a screwdriver, a data disc and a suit.
-
-&gt;</commentary>
+    <result xml:space="preserve">You open the toolbox, revealing a screwdriver, a data disc and a suit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You open the toolbox, revealing a screwdriver, a data disc and a suit.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112b140"/>
+      <child nodeId="node-57"/>
     </children>
   </item>
-  <item nodeId="node-0x112b140">
+  <item nodeId="node-57">
     <command xml:space="preserve">take all from toolbox</command>
-    <result xml:space="preserve">screwdriver: Taken.
-data disc: Taken.
-suit: Taken.
-
-&gt;</result>
-    <commentary xml:space="preserve">screwdriver: Taken.
-data disc: Taken.
-suit: Taken.
-
-&gt;</commentary>
+    <result xml:space="preserve">screwdriver: Taken.&#x000A;data disc: Taken.&#x000A;suit: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">screwdriver: Taken.&#x000A;data disc: Taken.&#x000A;suit: Taken.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112b2c0"/>
+      <child nodeId="node-58"/>
     </children>
   </item>
-  <item nodeId="node-0x112b2c0">
+  <item nodeId="node-58">
     <command xml:space="preserve">wear suit</command>
-    <result xml:space="preserve">You put on the suit.
-
-&gt;</result>
-    <commentary xml:space="preserve">You put on the suit.
-
-&gt;</commentary>
+    <result xml:space="preserve">You put on the suit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You put on the suit.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112b440"/>
+      <child nodeId="node-59"/>
     </children>
   </item>
-  <item nodeId="node-0x112b440">
+  <item nodeId="node-59">
     <command xml:space="preserve">turn screws</command>
-    <result xml:space="preserve">You loosen the screws using the screwdriver. The panel swings open.
-
-&gt;</result>
-    <commentary xml:space="preserve">You loosen the screws using the screwdriver. The panel swings open.
-
-&gt;</commentary>
+    <result xml:space="preserve">You loosen the screws using the screwdriver. The panel swings open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You loosen the screws using the screwdriver. The panel swings open.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112b5c0"/>
+      <child nodeId="node-60"/>
     </children>
   </item>
-  <item nodeId="node-0x112b5c0">
+  <item nodeId="node-60">
     <command xml:space="preserve">go n</command>
-    <result xml:space="preserve">Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.
-
-Administration
-You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-A cubicle is nearby. There is a doorway to the west, and an elevator to the north.
-
-You can see a copy machine here.
-
-&gt;</result>
-    <commentary xml:space="preserve">Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.
-
-Administration
-You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.
-
-A cubicle is nearby. There is a doorway to the west, and an elevator to the north.
-
-You can see a copy machine here.
-
-&gt;</commentary>
+    <result xml:space="preserve">Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.&#x000A;&#x000A;Administration&#x000A;You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.&#x000A;&#x000A;A cubicle is nearby. There is a doorway to the west, and an elevator to the north.&#x000A;&#x000A;You can see a copy machine here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Deftly, you step through the access tunnel and into the emergency fire escape stairwell. You ascend the stairs in the dim light and emerge surreptitiously in the administrative level of the building. Your arrival goes unnoticed.&#x000A;&#x000A;Administration&#x000A;You are standing against the wall in a large room. The space is divided into a dozen cubicles - people sitting inside their small cells. The room has the dull hum of a funeral parlour.&#x000A;&#x000A;A cubicle is nearby. There is a doorway to the west, and an elevator to the north.&#x000A;&#x000A;You can see a copy machine here.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112b740"/>
+      <child nodeId="node-61"/>
     </children>
   </item>
-  <item nodeId="node-0x112b740">
+  <item nodeId="node-61">
     <command xml:space="preserve">attack elderly man</command>
-    <result xml:space="preserve">Stupidly, you aim your spy watch at the elderly man, a small dart shoots into his thigh and he collapses. Seconds later armed guards shove you against the wall. You are taken deep into the confines of the building, never to be seen again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <commentary xml:space="preserve">Stupidly, you aim your spy watch at the elderly man, a small dart shoots into his thigh and he collapses. Seconds later armed guards shove you against the wall. You are taken deep into the confines of the building, never to be seen again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </commentary>
+    <result xml:space="preserve">Stupidly, you aim your spy watch at the elderly man, a small dart shoots into his thigh and he collapses. Seconds later armed guards shove you against the wall. You are taken deep into the confines of the building, never to be seen again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </result>
+    <commentary xml:space="preserve">Stupidly, you aim your spy watch at the elderly man, a small dart shoots into his thigh and he collapses. Seconds later armed guards shove you against the wall. You are taken deep into the confines of the building, never to be seen again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112b8c0"/>
+      <child nodeId="node-62"/>
     </children>
   </item>
-  <item nodeId="node-0x112b8c0">
+  <item nodeId="node-62">
     <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Administration
-[Previous turn undone.]
-
-&gt;</result>
-    <commentary xml:space="preserve">Administration
-[Previous turn undone.]
-
-&gt;</commentary>
+    <result xml:space="preserve">Administration&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Administration&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112ba40"/>
+      <child nodeId="node-63"/>
     </children>
   </item>
-  <item nodeId="node-0x112ba40">
+  <item nodeId="node-63">
     <command xml:space="preserve">purloin security pass</command>
-    <result xml:space="preserve">[Purloined.]
-
-&gt;</result>
-    <commentary xml:space="preserve">[Purloined.]
-
-&gt;</commentary>
+    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112bbc0"/>
+      <child nodeId="node-64"/>
     </children>
   </item>
-  <item nodeId="node-0x112bbc0">
+  <item nodeId="node-64">
     <command xml:space="preserve">unlock elevator with security pass</command>
-    <result xml:space="preserve">You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...
-
-Data Centre
-Rows upon rows of server racks fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, these are used to access various systems in the building.
-
-A technician is here, working on a terminal.
-
-You can also see a fire control terminal and a database terminal here.
-
-&gt;</result>
-    <commentary xml:space="preserve">You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...
-
-Data Centre
-Rows upon rows of server racks fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, these are used to access various systems in the building.
-
-A technician is here, working on a terminal.
-
-You can also see a fire control terminal and a database terminal here.
-
-&gt;</commentary>
+    <result xml:space="preserve">You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...&#x000A;&#x000A;Data Centre&#x000A;Rows upon rows of server racks fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, these are used to access various systems in the building.&#x000A;&#x000A;A technician is here, working on a terminal.&#x000A;&#x000A;You can also see a fire control terminal and a database terminal here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You swipe the security pass across the elevator scanner, the door slides open and you step inside. You feel gravity reduce as you descend underground...&#x000A;&#x000A;Data Centre&#x000A;Rows upon rows of server racks fill this room, lengths of cabling run between them like neurons in a brain. The racks are interspersed with computer terminals, these are used to access various systems in the building.&#x000A;&#x000A;A technician is here, working on a terminal.&#x000A;&#x000A;You can also see a fire control terminal and a database terminal here.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x112bd40"/>
+      <child nodeId="node-65"/>
     </children>
   </item>
-  <item nodeId="node-0x112bd40">
+  <item nodeId="node-65">
     <command xml:space="preserve">put disc in drive</command>
-    <result xml:space="preserve">&quot;What are you doing?&quot;, the tech asks you. &quot;Who are you? Show me your security pass!&quot;
-
-She realizes that the pass does not belong to you, before you can react she trips an alarm. Armed men surround you within seconds and you are led away, never to be heard from again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <commentary xml:space="preserve">&quot;What are you doing?&quot;, the tech asks you. &quot;Who are you? Show me your security pass!&quot;
-
-She realizes that the pass does not belong to you, before you can react she trips an alarm. Armed men surround you within seconds and you are led away, never to be heard from again.
-
-
-
-    *** Your mission and life end here ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </commentary>
+    <result xml:space="preserve">"What are you doing?", the tech asks you. "Who are you? Show me your security pass!"&#x000A;&#x000A;She realizes that the pass does not belong to you, before you can react she trips an alarm. Armed men surround you within seconds and you are led away, never to be heard from again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </result>
+    <commentary xml:space="preserve">"What are you doing?", the tech asks you. "Who are you? Show me your security pass!"&#x000A;&#x000A;She realizes that the pass does not belong to you, before you can react she trips an alarm. Armed men surround you within seconds and you are led away, never to be heard from again.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your mission and life end here ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>

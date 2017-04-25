@@ -621,6 +621,7 @@ Book - release
 [ * switch to gh-pages branch ]
 [ * cp -r "Code Name Silver Steel.materials/Release/*" . ]
 
+The release number is 2.
 The story genre is "Fiction". 
 The story creation year is 2017. 
 Release along with a website, an interpreter and a public solution. 
