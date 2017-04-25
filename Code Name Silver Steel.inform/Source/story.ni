@@ -114,15 +114,19 @@ Instead of asking the receptionist about something, say "[one of]She pauses as i
 [ generic replies, to all show and tell ]
 Instead of showing something to the receptionist, say "She looks at [the noun], feigning amusement."
 
+Instead of talking to the receptionist, say "[one of]'You need to show me a job card before I can issue you a pass, sir.'[or]'Job card, please...'[stopping]"
+
 Part - Elderly Admin Guy
 
 The elderly man is a man. The description is "He is an elderly man with receding brown hair. He seems preoccupied with his paperwork."
 
 The elderly man can be upset. The elderly man is not upset;
 
-Instead of asking the elderly man about something, say "You are trying to keep a low profile here, and don't wish to strike up a conversation with this man."
+Instead of asking the elderly man about something, say "You are trying to keep a low profile here."
 
 Understand "worker" or "workers" as elderly man.
+
+Instead of talking to elderly man, say "You don't wish to strike up a conversation with this man."
 
 Part - Technician
 
@@ -577,6 +581,10 @@ Book - New rules
 Understand "log on [something]" as logging on.
 Logging on is an action applying to one thing.
 
+Understand "talk to [someone]" as talking to.
+Talking to is an action applying to one thing.
+Carry out talking to:
+	say "[The noun] is too busy to have a conversation."
 
 
 Book - Scenes
