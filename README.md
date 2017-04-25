@@ -20,7 +20,9 @@ Release steps include tagging the current version and building a new website.
   git log <previous tag>..HEAD --oneline >> CHANGES
 
 * Edit CHANGES
-* Update the The release number in the story
+* Update the release number in the story
+* Build a z8 file into the Materials directory
+* Build a blorb package (this includes the z8 from above as a download link in the website)
 * git add . && git commit -m "Update release version"
 
 * Tag the new version
@@ -33,8 +35,6 @@ Release steps include tagging the current version and building a new website.
 
 ## Website
 
-* Build a z8 file into the Materials directory
-* Build a blorb package (this includes the z8 from above as a download link in the website)
 * checkout gh-pages
 * cp -r "Code Name Silver Steel.materials/Release/*" .
 * git add . && git commit -m "Build"
