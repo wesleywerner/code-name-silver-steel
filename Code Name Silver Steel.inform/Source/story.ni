@@ -199,7 +199,7 @@ Instead of switching on some buttons, try pushing some buttons.
 
 A cubicle is an enterable container in Administration. It is scenery. The description is "It is the closest cubicle to the copy machine."
 
-The admin elevator is a closed locked door. It is scenery. It is north of Administration and south of the Data Centre. The printed name is "elevator". The description is "A metal elevator with an electronic access system."
+The admin elevator is a closed locked door. It is scenery. It is north of Administration. Through the admin elevator is the Data Centre. The printed name is "elevator". The description is "A metal elevator with an electronic access system."
 
 [Through the admin elevator is the Data Centre.]
 
