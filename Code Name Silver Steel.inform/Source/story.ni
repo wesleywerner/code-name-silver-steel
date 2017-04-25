@@ -497,6 +497,11 @@ Instead of unlocking the admin elevator with security pass:
 	now the admin elevator is open;
 	try going north;
 	
+Every turn when the location is Administration:
+	if the elderly man is in the cubicle and the mug is not on the copy machine:
+		if a random chance of 1 in 4 succeeds:
+			say "The man exits his cubicle and walks to the copy machine. It dutifully 'whirrs' and 'schliks' out copies, the man grabs the pages and returns to his cubicle."
+	
 	
 
 
