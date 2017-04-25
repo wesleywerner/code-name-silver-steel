@@ -336,7 +336,7 @@ Instead of kissing somebody (called the target):
 
 [ win ]
 Carry out taking the data disk when the data disk is full:
-	say "You grab the data disk and make your escape up the stairs to the roof. You reverse you suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.[paragraph break]Your mission was a success!";
+	say "You grab the data disk and make your escape up the stairs to the roof. You reverse your suit jacket, turning it into a harness. A few minutes later, a glider soars overhead, a cable trailing below it. Executing a perfectly timed run, you grab the cable while hooking it into your suit harness - You soar silently out of sight.[paragraph break]Your mission was a success!";
 	end the story;
 
 
