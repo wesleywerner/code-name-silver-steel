@@ -33,3 +33,7 @@ f5c8e08 Add synonymns to security pass, overall, toolbox, data disk
 
 Note: Merriam-Webster’s defines “disk” as “a round flat plate coated with a magnetic substance on which data for a computer is stored.” It goes on to say that an “optical disk” (like a “videodisc” or a “CD”) is usually spelled “disc”. For this reason I renamed this item to the "disk" variant, but both spellings are now understood by the game.
 
+Version 3
+6d24988 Run spell check.
+58a43d8 Add tester credits.
+38629f1 Add release steps.
