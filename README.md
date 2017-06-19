@@ -31,7 +31,7 @@ Release steps include tagging the current version and building a new website.
 
 * Push changes and tags
 
-  git push origin --tags
+  git push --follow-tags
 
 ## Website
 
