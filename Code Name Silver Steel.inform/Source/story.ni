@@ -146,7 +146,7 @@ You are standing by the reception desk in the centre of the room, a small recept
 To the north is an elevator, and a door beside it.
 [if the location is not visited]
 
-(New players should type 'help')"
+(New players should type HELP. To see the list of testers, type CREDITS)"
 
 The tiles is scenery in the Foyer. The description is "Large white square tiles cover the foyer floor." 
 Understand "floor" as tiles. 
@@ -287,6 +287,11 @@ To say help text:
 Asking for help is an action out of world. Understand "help" as asking for help.
 Carry out asking for help: say "[help text]".
 		
+
+Book - Tester credits
+
+Listing credits is an action out of world. Understand "credits" as listing credits.
+Report listing credits: say "Thanks to Eleas, matt w, HowardF64, Suho and Gamefic. Your feedback was invaluable!".
 
 Book - Play Begins
 
