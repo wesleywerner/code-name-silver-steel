@@ -626,6 +626,6 @@ The story genre is "Fiction".
 The story creation year is 2017. 
 Release along with a website, an interpreter and a public solution. 
 Release along with a file of "z8 game file" called "Code Name Silver Steel.z8".  
-
+Release along with cover art.
 
 Book - addendum

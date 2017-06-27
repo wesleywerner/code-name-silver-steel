@@ -20,10 +20,16 @@
                 <description>z8 game file</description>
             </auxiliary>
         </resources>
+        <cover>
+            <format>jpg</format>
+            <height>960</height>
+            <width>960</width>
+            <description>The cover art.</description>
+        </cover>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2017-04-25</releasedate>
+                    <releasedate>2017-06-27</releasedate>
                     <version>2</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
@@ -33,12 +39,13 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6M62</generatorversion>
-            <originated>2017-04-25</originated>
+            <originated>2017-06-27</originated>
         </colophon>
         <zcode>
-            <serial>170425</serial>
+            <serial>170627</serial>
             <release>2</release>
             <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
         </zcode>
     </story>
 </ifindex>
