@@ -42,7 +42,7 @@ Part - Props for other characters or scenery
 
 The horn-rimmed glasses is a wearable thing. The description is "Tortoise shell pattern frames line the clear lenses."
 
-The paperwork is a thing. It is scenery. It is fixed in place. It is plural-named. The description is "Boilerplate administrativia useless to you cause."
+The paperwork is a thing. It is scenery. It is fixed in place. It is plural-named. The description is "Boilerplate administrative papers, useless to your mission."
 
 Instead of taking the paperwork, try examining the paperwork.
 
@@ -64,14 +64,14 @@ A maintenance tag is a wearable thing. The description is "A minimal security pa
 A toolbox is a closed openable container. The description is "It looks just like a metal toolbox, the red paint is even scuffed away along the edges. In reality it is just a metal toolbox, except it contains spy gear. Best you open it in private."
 Understand "tool box" as toolbox.
 
-A screwdriver is a thing in the toolbox. The description is "A phillips head screwdriver."
+A screwdriver is a thing in the toolbox. The description is "A Phillips head screwdriver."
 
 A data disk is a thing in the toolbox. 
 A data disk can be full.
 The description of a data disk is "A round silver magnetic disk for storing digital data."
 Understand "disc" as data disk.
 
-A suit is a wearable thing in the toolbox. The description is "A smart gray suit. The perfect attire for a day of espionage."
+A suit is a wearable thing in the toolbox. The description is "A smart grey suit. The perfect attire for a day of espionage."
 
 A coffee mug is a thing. A coffee mug can be full or empty. A coffee mug is empty. The description is "A white unmarked mug.[if A coffee mug is full] It has hot coffee in it.[end if]"
 
@@ -146,7 +146,7 @@ You are standing by the reception desk in the centre of the room, a small recept
 To the north is an elevator, and a door beside it.
 [if the location is not visited]
 
-(New players should type 'help')"
+(New players should type HELP. To see the list of testers, type CREDITS)"
 
 The tiles is scenery in the Foyer. The description is "Large white square tiles cover the foyer floor." 
 Understand "floor" as tiles. 
@@ -173,7 +173,7 @@ Some piping is scenery in the Maintenance Quarters. The description is "Pipes of
 Understand "pipes" and "ceiling" as piping.
 
 The access panel is a door. It is scenery.
-The description is "A gray steel panel. This one seems to cover a tunnel."
+The description is "A grey steel panel. This one seems to cover a tunnel."
 It is north of the Maintenance Quarters and south of Administration.
 
 Some screws are part of the access panel. The description is "Steel pins with spiralling shafts used to fix other things in place. Usually turned by a screwdriver."
@@ -288,6 +288,11 @@ Asking for help is an action out of world. Understand "help" as asking for help.
 Carry out asking for help: say "[help text]".
 		
 
+Book - Tester credits
+
+Listing credits is an action out of world. Understand "credits" as listing credits.
+Report listing credits: say "Thanks to Eleas, matt w, HowardF64, Suho and Gamefic. Your feedback was invaluable!".
+
 Book - Play Begins
 
 When play begins:
@@ -396,7 +401,7 @@ Last report going to the Maintenance Quarters for the first time:
 	say "You put the toolbox down.";
 	move the toolbox to the location;
 	
-Instead of taking the toolbox when the location is the Maintenance Quarters, say "You won't need the toolbox anymore[if the number of things in the toolbox is greater than zero], but you might want to look inside it[end if]."
+Instead of taking the toolbox when the location is the Maintenance Quarters, say "You won't need the toolbox any more[if the number of things in the toolbox is greater than zero], but you might want to look inside it[end if]."
 
 Instead of taking off the overall when the player is wearing the overall and the location is the Maintenance Quarters:
 	say "You remove the overall and drop it on the floor.";
@@ -450,7 +455,7 @@ Instead of listening when the location is Administration, say "The room has the 
 
 Instead of smelling when the location is Administration, say "The scent of coffee seems to be coming from the west."
 
-Instead of going south when the location is Administration, say "You have no reason to go back to the maintenace level now."
+Instead of going south when the location is Administration, say "You have no reason to go back to the maintenance level now."
 
 Instead of entering a cubicle when the elderly man is in the cubicle, say "Not while the cubicle is occupied."
 
@@ -531,7 +536,7 @@ Carry out taking a mug:
 	now the mug is full;
 	continue the action;
 	
-Book - Data Center
+Book - Data Centre
 
 Instead of listening when the location is the Data Centre, say "You hear the low hum of the servers, forever working."
 
@@ -545,7 +550,7 @@ Instead of going when the location is the Data Centre:
 [ to use the one terminal, we need to get rid of the technician. we can attack the technician to knock them out, or set off the fire alarm via the fire control terminal ]
 
 Instead of attacking a not asleep technician:
-	say "You aim your spy watch at [the technician], a tranquilizer dart shoots into [their] [one of]neck[or]chest[or]arm[or]thigh[at random] and [they] collapses to the floor, unconscious.";
+	say "You aim your spy watch at [the technician], a tranquillizer dart shoots into [their] [one of]neck[or]chest[or]arm[or]thigh[at random] and [they] collapses to the floor, unconscious.";
 	now the technician is asleep; 
 
 Instead of attacking a asleep technician:
@@ -616,12 +621,7 @@ Volume - PUBLICATION
 
 Book - release
 
-[ * Release a z8 file (non-blorb) into the Materials directory ]
-[ * Release as a blorb package - this includes the z8 from above ]
-[ * switch to gh-pages branch ]
-[ * cp -r "Code Name Silver Steel.materials/Release/*" . ]
-
-The release number is 2.
+The release number is 3.
 The story genre is "Fiction". 
 The story creation year is 2017. 
 Release along with a website, an interpreter and a public solution. 

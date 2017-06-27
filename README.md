@@ -17,7 +17,7 @@ Release steps include tagging the current version and building a new website.
 
 * Generate release notes
 
-  git log <previous tag>..HEAD --oneline >> CHANGES
+  git log CURRENT_VERSION_TAG..HEAD --oneline >> CHANGES
 
 * Edit CHANGES
 * Update the release number in the story
@@ -27,11 +27,11 @@ Release steps include tagging the current version and building a new website.
 
 * Tag the new version
 
-  git tag -a <new version>
+  git tag -a NEW_VERSION
 
 * Push changes and tags
 
-  git push origin --tags
+  git push --follow-tags
 
 ## Website
 
